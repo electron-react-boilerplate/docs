@@ -21,6 +21,10 @@
         "title": "Packaging",
         "sidebar_label": "Packaging"
       },
+      "styling": {
+        "title": "Styling",
+        "sidebar_label": "Styling"
+      },
       "testing": {
         "title": "Testing",
         "sidebar_label": "Testing"
