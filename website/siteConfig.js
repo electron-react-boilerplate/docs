@@ -12,7 +12,7 @@ const siteConfig = {
   tagline: 'A Foundation for Scalable Cross-Platform Apps',
   url: 'https://electron-react-boilerplate.js.com',
   baseUrl: '/',
-  projectName: 'electron-react-boilerplate-site',
+  projectName: 'site',
   organizationName: 'electron-react-boilerplate',
 
   headerLinks: [
