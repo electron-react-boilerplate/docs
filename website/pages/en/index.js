@@ -104,29 +104,60 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
+        content: 'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Faster Iteration: Hot Reloading',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Scalable: Incremental Typing',
+      },
+      {
+        content: 'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'top',
+        title: 'Performance: Build Optimizations',
       },
     ]}
   </Block>
 );
 
-const FeatureCallout = () => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
-  </div>
-);
+const features = [
+  {
+    content: 'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
+    image: imgUrl('docusaurus.svg'),
+    imageAlign: 'top',
+    title: 'Faster Iteration: Hot Reloading',
+  },
+  {
+    content: 'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
+    image: imgUrl('docusaurus.svg'),
+    imageAlign: 'top',
+    title: 'Scalable: Incremental Typing',
+  },
+  {
+    content: 'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
+    image: imgUrl('docusaurus.svg'),
+    imageAlign: 'top',
+    title: 'Performance: Build Optimizations',
+  }
+];
+
+const FeatureCallout = () => features.map(({ title, content }, index) => (
+  <Block background={index % 2 === 0 ? 'dark' : 'light'}>
+    {[
+      {
+        content,
+        title,
+        // image: imgUrl('docusaurus.svg'),
+        // imageAlign: 'right',
+      },
+    ]}
+  </Block>
+));
 
 const LearnHow = () => (
   <Block background="light">
@@ -204,7 +235,6 @@ class Index extends React.Component {
           <FeatureCallout />
           <LearnHow />
           <TryOut />
-          <Description />
           <Showcase language={language} />
         </div>
       </div>

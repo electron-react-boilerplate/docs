@@ -3,35 +3,44 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Live editing development on desktop app",
+    "tagline": "A Foundation for Scalable Cross-Platform Apps",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "adding-dependencies": {
+        "title": "Adding Dependencies",
+        "sidebar_label": "Adding Dependencies"
       },
-      "doc2": {
-        "title": "document number 2"
+      "example-apps": {
+        "title": "Example Apps",
+        "sidebar_label": "Example Apps"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "getting-started": {
+        "title": "Getting Started",
+        "sidebar_label": "Getting Started"
       },
-      "doc4": {
-        "title": "Other Document"
+      "packaging": {
+        "title": "Packaging",
+        "sidebar_label": "Packaging"
       },
-      "doc5": {
-        "title": "Fifth Document"
+      "testing": {
+        "title": "Testing",
+        "sidebar_label": "Testing"
+      },
+      "writing-tests": {
+        "title": "Writing Tests",
+        "sidebar_label": "Writing Tests"
       }
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
       "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Getting Started": "Getting Started",
+      "Testing": "Testing",
+      "Packaging": "Packaging",
+      "Example Apps": "Example Apps",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {

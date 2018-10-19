@@ -1,8 +1,9 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started": ["getting-started"],
+    "Testing": ["writing-tests"],
+    "Packaging": ["packaging"],
+    "Example Apps": ["example-apps"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
