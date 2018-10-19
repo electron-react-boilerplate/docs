@@ -10,10 +10,13 @@ const users = [
 const siteConfig = {
   title: 'Electron React Boilerplate',
   tagline: 'A Foundation for Scalable Cross-Platform Apps',
-  url: 'https://electron-react-boilerplate.js.com',
-  // Ideally, this is what we want
+  // @TODO
+  // url: 'https://electron-react-boilerplate.js.org',
+  url: 'https://electron-react-boilerplate.github.io',
+  // @TODO
   // baseUrl: '/',
   // Currently we have to use this until we move to custom domain name
+  cname: 'electron-react-boilerplate.js.org',
   baseUrl: '/site/',
   projectName: 'site',
   organizationName: 'electron-react-boilerplate',
