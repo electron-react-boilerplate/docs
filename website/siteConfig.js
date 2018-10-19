@@ -11,7 +11,10 @@ const siteConfig = {
   title: 'Electron React Boilerplate',
   tagline: 'A Foundation for Scalable Cross-Platform Apps',
   url: 'https://electron-react-boilerplate.js.com',
-  baseUrl: '/',
+  // Ideally, this is what we want
+  // baseUrl: '/',
+  // Currently we have to use this until we move to custom domain name
+  baseUrl: '/site/',
   projectName: 'site',
   organizationName: 'electron-react-boilerplate',
 
