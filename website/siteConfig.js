@@ -17,7 +17,7 @@ const siteConfig = {
   // baseUrl: '/',
   // Currently we have to use this until we move to custom domain name
   cname: 'electron-react-boilerplate.js.org',
-  baseUrl: '/site/',
+  baseUrl: '/',
   projectName: 'site',
   organizationName: 'electron-react-boilerplate',
 
