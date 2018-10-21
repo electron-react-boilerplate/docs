@@ -50,7 +50,8 @@ const siteConfig = {
   algolia: {
     // "Search only api key". Safe to keep this public
     apiKey: '98d1cc77f9ebc4f768c6d4afe61fbeed',
-    indexName: 'electron-react-boilerplate'
+    indexName: 'electron-react-boilerplate',
+    appId: '5Y93UX5IN4'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -60,6 +61,9 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+
+  // Google analytics
+  gaTrackingId: 'UA-127797742',
 
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
