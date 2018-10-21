@@ -49,7 +49,7 @@ const siteConfig = {
 
   algolia: {
     // "Search only api key". Safe to keep this public
-    apiKey: "e64a0ebb2892108f64b0ea9042a9c10a",
+    apiKey: '98d1cc77f9ebc4f768c6d4afe61fbeed',
     indexName: 'electron-react-boilerplate'
   },
 

@@ -4,8 +4,5 @@
     "Testing": ["writing-tests"],
     "Packaging": ["packaging"],
     "Example Apps": ["example-apps"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
