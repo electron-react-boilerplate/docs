@@ -1,8 +1,10 @@
 {
   "docs": {
     "Getting Started": ["getting-started"],
+    "Basics": ["adding-images", "reading-files"],
     "Testing": ["writing-tests"],
     "Packaging": ["packaging"],
-    "Example Apps": ["example-apps"]
+    "Example Apps": ["example-apps"],
+    "Advanced": ["debugging-production-build"]
   }
 }

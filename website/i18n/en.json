@@ -41,9 +41,11 @@
     },
     "categories": {
       "Getting Started": "Getting Started",
+      "Basics": "Basics",
       "Testing": "Testing",
       "Packaging": "Packaging",
-      "Example Apps": "Example Apps"
+      "Example Apps": "Example Apps",
+      "Advanced": "Advanced"
     }
   },
   "pages-strings": {
