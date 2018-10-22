@@ -3,11 +3,7 @@
 <url> <loc>https://electron-react-boilerplate.github.io/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/en/help" /> </url>
 <url> <loc>https://electron-react-boilerplate.github.io/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/en/index" /> </url>
 <url> <loc>https://electron-react-boilerplate.github.io/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/en/users" /> </url>
-<url> <loc>https://electron-react-boilerplate.github.io/blog/2017/10/24/new-version-1.0.0</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://electron-react-boilerplate.github.io/blog/2017/09/26/adding-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://electron-react-boilerplate.github.io/blog/2017/09/25/testing-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://electron-react-boilerplate.github.io/blog/2017/04/10/blog-post-two</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://electron-react-boilerplate.github.io/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://electron-react-boilerplate.github.io/blog/2018/10/22/hello-world</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://electron-react-boilerplate.github.io/docs/adding-dependencies</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/docs/adding-dependencies" /> </url>
 <url> <loc>https://electron-react-boilerplate.github.io/docs/example-apps</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/docs/example-apps" /> </url>
 <url> <loc>https://electron-react-boilerplate.github.io/docs/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://electron-react-boilerplate.github.io/docs/getting-started" /> </url>
