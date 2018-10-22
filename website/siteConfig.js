@@ -1,11 +1,4 @@
-const users = [
-  {
-    caption: 'User1',
-    image: '/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
+const users = [];
 
 const siteConfig = {
   title: 'Electron React Boilerplate',
@@ -67,7 +60,10 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
+
   twitterImage: 'img/docusaurus.png',
+  twitter: true,
+  twitterUsername: 'eBoilerplate'
 };
 
 module.exports = siteConfig;
