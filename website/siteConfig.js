@@ -42,9 +42,8 @@ const siteConfig = {
 
   algolia: {
     // "Search only api key". Safe to keep this public
-    apiKey: '98d1cc77f9ebc4f768c6d4afe61fbeed',
-    indexName: 'electron-react-boilerplate',
-    appId: '5Y93UX5IN4'
+    apiKey: '7989826be21123972626ebaacdc71b1a',
+    indexName: 'electron-react-boilerplate'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
