@@ -1,4 +1,7 @@
 {
+  "private": true,
+  "name": "@electron-react-boilerplate/site",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "crowdin-upload": "crowdin --config ../crowdin.yaml upload sources --auto-update -b master",
