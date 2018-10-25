@@ -1767,7 +1767,7 @@ diacritics-map@^0.1.0:
   resolved "https://registry.yarnpkg.com/diacritics-map/-/diacritics-map-0.1.0.tgz#6dfc0ff9d01000a2edf2865371cac316e94977af"
   integrity sha1-bfwP+dAQAKLt8oZTccrDFulJd68=
 
-docusaurus@^1.5.0:
+docusaurus@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/docusaurus/-/docusaurus-1.5.0.tgz#40e22e65a90d00d73e3d27a5db65a7a7374720ef"
   integrity sha512-QHLoUahb0EJVV4Klwctfd9aRR6oehda7qbQP4avar9usrbG1O4BLek8NohshwywnWaa9d+d7dBq+6dZ28CmJqA==
@@ -5830,7 +5830,7 @@ yargs@^2.3.0:
   dependencies:
     wordwrap "0.0.2"
 
-yarn@^1.10.1:
+yarn@1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.10.1.tgz#b792ba28f050ae94cd7e719dbca80639d70da76f"
   integrity sha512-EH0H1fyfFxkE4UpG4b+VCaVY4I488I2EyQNmGjGGKmvsSIb0G3b+1IcfGYPI2gqa1du43g4ZA3jH8fXlq6oVxg==

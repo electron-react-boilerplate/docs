@@ -10,7 +10,7 @@
     "build": "yarn workspace @electron-react-boilerplate/site build"
   },
   "devDependencies": {
-    "yarn": "^1.10.1"
+    "yarn": "1.10.1"
   },
   "engines": {
     "yarn": ">=1"
