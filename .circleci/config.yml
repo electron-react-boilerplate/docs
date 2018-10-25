@@ -8,7 +8,7 @@ version: 2
 jobs:
   deploy-website:
     docker:
-      - image: circleci/node:8.11.1
+      - image: circleci/node:8.12.0
 
     steps:
       - checkout
