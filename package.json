@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/electron-react-boilerplate/site.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "website"
+  ],
+  "scripts": {
+    "start": "yarn workspace @electron-react-boilerplate/site start",
+    "build": "yarn workspace @electron-react-boilerplate/site build"
+  },
+  "devDependencies": {
+    "yarn": "^1.10.1"
+  },
+  "engines": {
+    "yarn": ">=1"
+  }
+}
