@@ -9,9 +9,29 @@
         "title": "Adding Dependencies",
         "sidebar_label": "Adding Dependencies"
       },
+      "adding-images": {
+        "title": "Adding Images",
+        "sidebar_label": "Adding Images"
+      },
+      "component-tests": {
+        "title": "Component Tests",
+        "sidebar_label": "Component Tests"
+      },
+      "demos": {
+        "title": "Demos",
+        "sidebar_label": "Demos"
+      },
+      "e2e-tests": {
+        "title": "End To End Tests",
+        "sidebar_label": "End To End Tests"
+      },
       "example-apps": {
         "title": "Example Apps",
         "sidebar_label": "Example Apps"
+      },
+      "faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
       },
       "getting-started": {
         "title": "Getting Started",
@@ -21,6 +41,10 @@
         "title": "Packaging",
         "sidebar_label": "Packaging"
       },
+      "reading-files": {
+        "title": "Reading Files",
+        "sidebar_label": "Reading Files"
+      },
       "styling": {
         "title": "Styling",
         "sidebar_label": "Styling"
@@ -28,14 +52,11 @@
       "testing": {
         "title": "Testing",
         "sidebar_label": "Testing"
-      },
-      "writing-tests": {
-        "title": "Writing Tests",
-        "sidebar_label": "Writing Tests"
       }
     },
     "links": {
       "Docs": "Docs",
+      "Demos": "Demos",
       "Help": "Help",
       "Blog": "Blog"
     },
@@ -44,7 +65,8 @@
       "Basics": "Basics",
       "Testing": "Testing",
       "Packaging": "Packaging",
-      "Example Apps": "Example Apps",
+      "Community Content": "Community Content",
+      "Guides": "Guides",
       "Advanced": "Advanced"
     }
   },

@@ -6,20 +6,15 @@ sidebar_label: Getting Started
 
 ## Install
 
-💡 **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/400)**
-
-First, clone the repo via git:
-
 ```bash
-git clone --depth=1 https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
-```
-
-And then install dependencies with yarn.
-
-```bash
+# First, clone the repo via git:
+$ git clone --depth=1 https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
 $ cd your-project-name
+# And then install dependencies with yarn:
 $ yarn
 ```
+
+💡 **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/400)**
 
 ## Run
 

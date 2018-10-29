@@ -3,32 +3,29 @@ const users = [];
 const siteConfig = {
   title: 'Electron React Boilerplate',
   tagline: 'A Foundation for Scalable Cross-Platform Apps',
-  // @TODO
-  // url: 'https://electron-react-boilerplate.js.org',
-  url: 'https://electron-react-boilerplate.github.io',
-  // @TODO
-  // baseUrl: '/',
-  // Currently we have to use this until we move to custom domain name
+  url: 'https://electron-react-boilerplate.js.org',
   cname: 'electron-react-boilerplate.js.org',
   baseUrl: '/',
-  projectName: 'site',
+  projectName: 'electron-react-boilerplate',
   organizationName: 'electron-react-boilerplate',
+  repoUrl: 'https://github.com/electron-react-boilerplate/electron-react-boilerplate',
 
   headerLinks: [
     {doc: 'getting-started', label: 'Docs'},
+    {doc: 'demos', label: 'Demos'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
 
   users,
 
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'logo/logo.svg',
+  footerIcon: 'logo/logo.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#292929',
     secondaryColor: '#205C3B',
   },
 
@@ -37,7 +34,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'tomorrow'
   },
 
   algolia: {
@@ -58,9 +55,9 @@ const siteConfig = {
   gaTrackingId: 'UA-127797742',
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
+  ogImage: 'logo/logo.png',
 
-  twitterImage: 'img/docusaurus.png',
+  twitterImage: 'logo/logo.png',
   twitter: true,
   twitterUsername: 'eBoilerplate'
 };
