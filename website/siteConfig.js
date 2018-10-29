@@ -40,7 +40,10 @@ const siteConfig = {
   algolia: {
     // "Search only api key". Safe to keep this public
     apiKey: '7989826be21123972626ebaacdc71b1a',
-    indexName: 'electron-react-boilerplate'
+    indexName: 'electron-react-boilerplate',
+    algoliaOptions: {
+      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+    }
   },
 
   // Add custom scripts here that would be placed in <script> tags.

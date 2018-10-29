@@ -37,6 +37,10 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "introduction": {
+        "title": "Intro",
+        "sidebar_label": "Intro"
+      },
       "packaging": {
         "title": "Packaging",
         "sidebar_label": "Packaging"
@@ -48,10 +52,6 @@
       "styling": {
         "title": "Styling",
         "sidebar_label": "Styling"
-      },
-      "testing": {
-        "title": "Testing",
-        "sidebar_label": "Testing"
       }
     },
     "links": {
@@ -65,9 +65,9 @@
       "Basics": "Basics",
       "Testing": "Testing",
       "Packaging": "Packaging",
-      "Community Content": "Community Content",
+      "Advanced": "Advanced",
       "Guides": "Guides",
-      "Advanced": "Advanced"
+      "Community Content": "Community Content"
     }
   },
   "pages-strings": {
