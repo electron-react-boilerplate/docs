@@ -52,6 +52,54 @@
       "styling": {
         "title": "Styling",
         "sidebar_label": "Styling"
+      },
+      "version-0.16.0-adding-assets": {
+        "title": "Adding Assets",
+        "sidebar_label": "Adding Assets"
+      },
+      "version-0.16.0-adding-dependencies": {
+        "title": "Adding Dependencies",
+        "sidebar_label": "Adding Dependencies"
+      },
+      "version-0.16.0-component-tests": {
+        "title": "Component Tests",
+        "sidebar_label": "Component Tests"
+      },
+      "version-0.16.0-demos": {
+        "title": "Demos",
+        "sidebar_label": "Demos"
+      },
+      "version-0.16.0-e2e-tests": {
+        "title": "End to End Tests",
+        "sidebar_label": "End to End Tests"
+      },
+      "version-0.16.0-example-apps": {
+        "title": "Example Apps",
+        "sidebar_label": "Example Apps"
+      },
+      "version-0.16.0-faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
+      },
+      "version-0.16.0-installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "version-0.16.0-introduction": {
+        "title": "Intro",
+        "sidebar_label": "Intro"
+      },
+      "version-0.16.0-packaging": {
+        "title": "Packaging",
+        "sidebar_label": "Packaging"
+      },
+      "version-0.16.0-reading-files": {
+        "title": "Reading Files",
+        "sidebar_label": "Reading Files"
+      },
+      "version-0.16.0-styling": {
+        "title": "Styling",
+        "sidebar_label": "Styling"
       }
     },
     "links": {

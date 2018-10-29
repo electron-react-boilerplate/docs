@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "start": "yarn workspace @electron-react-boilerplate/site start",
-    "build": "yarn workspace @electron-react-boilerplate/site build"
+    "build": "yarn workspace @electron-react-boilerplate/site build",
+    "version": "yarn workspace @electron-react-boilerplate/site version"
   },
   "devDependencies": {
     "yarn": "^1.10.1"
