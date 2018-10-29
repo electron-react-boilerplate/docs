@@ -5,13 +5,13 @@
     "previous": "Previous",
     "tagline": "A Foundation for Scalable Cross-Platform Apps",
     "docs": {
+      "adding-assets": {
+        "title": "Adding Assets",
+        "sidebar_label": "Adding Assets"
+      },
       "adding-dependencies": {
         "title": "Adding Dependencies",
         "sidebar_label": "Adding Dependencies"
-      },
-      "adding-images": {
-        "title": "Adding Images",
-        "sidebar_label": "Adding Images"
       },
       "component-tests": {
         "title": "Component Tests",
@@ -22,8 +22,8 @@
         "sidebar_label": "Demos"
       },
       "e2e-tests": {
-        "title": "End To End Tests",
-        "sidebar_label": "End To End Tests"
+        "title": "End to End Tests",
+        "sidebar_label": "End to End Tests"
       },
       "example-apps": {
         "title": "Example Apps",

@@ -6,7 +6,7 @@ const siteConfig = {
   url: 'https://electron-react-boilerplate.js.org',
   cname: 'electron-react-boilerplate.js.org',
   baseUrl: '/',
-  projectName: 'electron-react-boilerplate',
+  projectName: 'site',
   organizationName: 'electron-react-boilerplate',
   repoUrl: 'https://github.com/electron-react-boilerplate/electron-react-boilerplate',
 
