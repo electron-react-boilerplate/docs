@@ -1,11 +1,11 @@
 {
   "docs": {
-    "Getting Started": ["getting-started"],
+    "Getting Started": ["installation"],
     "Basics": ["adding-assets", "reading-files", "faq"],
     "Testing": ["component-tests", "e2e-tests"],
     "Packaging": ["packaging"],
-    "Community Content": ["example-apps"],
+    "Advanced": ["debugging-production-build", "internals"],
     "Guides": [],
-    "Advanced": ["debugging-production-build", "internals"]
+    "Community Content": ["example-apps"]
   }
 }

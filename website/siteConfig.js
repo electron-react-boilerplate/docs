@@ -11,7 +11,7 @@ const siteConfig = {
   repoUrl: 'https://github.com/electron-react-boilerplate/electron-react-boilerplate',
 
   headerLinks: [
-    {doc: 'getting-started', label: 'Docs'},
+    {doc: 'installation', label: 'Docs'},
     {doc: 'demos', label: 'Demos'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
@@ -21,7 +21,7 @@ const siteConfig = {
 
   headerIcon: 'logo/logo.svg',
   footerIcon: 'logo/logo.svg',
-  favicon: 'img/favicon.png',
+  favicon: 'logo/logo.png',
 
   /* Colors for website */
   colors: {
