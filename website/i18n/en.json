@@ -53,6 +53,10 @@
         "title": "Styling",
         "sidebar_label": "Styling"
       },
+      "upgrade-guide": {
+        "title": "Upgrade Guide",
+        "sidebar_label": "Upgrade Guide"
+      },
       "version-0.16.0-adding-assets": {
         "title": "Adding Assets",
         "sidebar_label": "Adding Assets"
