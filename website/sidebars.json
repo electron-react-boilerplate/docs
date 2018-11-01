@@ -5,7 +5,7 @@
     "Testing": ["component-tests", "e2e-tests"],
     "Packaging": ["packaging"],
     "Advanced": ["debugging-production-build", "internals"],
-    "Guides": [],
+    "Guides": ["upgrade-guide"],
     "Community Content": ["example-apps"]
   }
 }
