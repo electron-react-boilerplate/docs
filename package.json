@@ -11,9 +11,9 @@
     "version": "yarn workspace @electron-react-boilerplate/site version"
   },
   "devDependencies": {
-    "yarn": "^1.10.1"
+    "yarn": "^1.12.3"
   },
   "engines": {
-    "yarn": ">=1.10.1"
+    "yarn": ">=1.12.3"
   }
 }
