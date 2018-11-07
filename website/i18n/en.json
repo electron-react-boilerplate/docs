@@ -104,6 +104,10 @@
       "version-0.16.0-styling": {
         "title": "Styling",
         "sidebar_label": "Styling"
+      },
+      "version-0.17.0-upgrade-guide": {
+        "title": "Upgrade Guide",
+        "sidebar_label": "Upgrade Guide"
       }
     },
     "links": {

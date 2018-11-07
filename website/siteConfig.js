@@ -42,8 +42,7 @@ const siteConfig = {
     apiKey: '7989826be21123972626ebaacdc71b1a',
     indexName: 'electron-react-boilerplate',
     algoliaOptions: {
-      // This doesn't work yet 😢
-      // facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
     }
   },
 
