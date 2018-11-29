@@ -8,13 +8,14 @@ const siteConfig = {
   baseUrl: '/',
   projectName: 'site',
   organizationName: 'electron-react-boilerplate',
-  repoUrl: 'https://github.com/electron-react-boilerplate/electron-react-boilerplate',
+  repoUrl:
+    'https://github.com/electron-react-boilerplate/electron-react-boilerplate',
 
   headerLinks: [
-    {doc: 'installation', label: 'Docs'},
-    {doc: 'demos', label: 'Demos'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'installation', label: 'Docs' },
+    { doc: 'demos', label: 'Demos' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' }
   ],
 
   users,
@@ -26,7 +27,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#292929',
-    secondaryColor: '#205C3B',
+    secondaryColor: '#205C3B'
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -42,7 +43,7 @@ const siteConfig = {
     apiKey: '7989826be21123972626ebaacdc71b1a',
     indexName: 'electron-react-boilerplate',
     algoliaOptions: {
-      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+      facetFilters: ['language:LANGUAGE', 'version:VERSION']
     }
   },
 

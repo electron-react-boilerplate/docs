@@ -1,11 +1,12 @@
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
+
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
-const {MarkdownBlock, GridBlock, Container} = CompLibrary;
+const { MarkdownBlock, GridBlock, Container } = CompLibrary;
 
 function imgUrl(img) {
-  return `${siteConfig.baseUrl}img/${img}`;
+  return `${siteConfig.baseUrl}${img}`;
 }
 
 function docUrl(doc, language) {
@@ -29,7 +30,7 @@ class Button extends React.Component {
 }
 
 Button.defaultProps = {
-  target: '_self',
+  target: '_self'
 };
 
 const SplashContainer = props => (
@@ -66,11 +67,13 @@ class HomeSplash extends React.Component {
     const language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('logo/logo.png')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('installation.html', language)}>Try It Out</Button>
+            <Button href={docUrl('installation.html', language)}>
+              Try It Out
+            </Button>
             <Button href={siteConfig.repoUrl}>GitHub</Button>
           </PromoSection>
         </div>
@@ -83,7 +86,8 @@ const Block = props => (
   <Container
     padding={['bottom', 'top']}
     id={props.id}
-    background={props.background}>
+    background={props.background}
+  >
     <GridBlock align="center" contents={props.children} layout={props.layout} />
   </Container>
 );
@@ -92,110 +96,75 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
-        image: imgUrl('docusaurus.svg'),
+        content:
+          'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
+        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
-        title: 'Faster Iteration: Hot Reloading',
+        title: 'Faster Iteration: Hot Reloading'
       },
       {
-        content: 'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
-        image: imgUrl('docusaurus.svg'),
+        content:
+          'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
+        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
-        title: 'Scalable: Incremental Typing',
+        title: 'Scalable: Incremental Typing'
       },
       {
-        content: 'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
-        image: imgUrl('docusaurus.svg'),
+        content:
+          'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
+        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
-        title: 'Performance: Build Optimizations',
-      },
+        title: 'Performance: Build Optimizations'
+      }
     ]}
   </Block>
 );
 
 const features = [
   {
-    content: 'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
-    image: imgUrl('docusaurus.svg'),
+    content:
+      'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
     imageAlign: 'top',
-    title: 'Faster Iteration: Hot Reloading',
+    title: 'Faster Iteration: Hot Reloading'
   },
   {
-    content: 'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
-    image: imgUrl('docusaurus.svg'),
+    content:
+      'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
     imageAlign: 'top',
-    title: 'Scalable: Incremental Typing',
+    title: 'Scalable: Incremental Typing'
   },
   {
-    content: 'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
-    image: imgUrl('docusaurus.svg'),
+    content:
+      'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
     imageAlign: 'top',
-    title: 'Performance: Build Optimizations',
+    title: 'Performance: Build Optimizations'
   }
 ];
 
-const FeatureCallout = () => features.map(({ title, content }, index) => (
-  <Block background={index % 2 === 0 ? 'dark' : 'light'}>
-    {[
-      {
-        content,
-        title,
-        // image: imgUrl('docusaurus.svg'),
-        // imageAlign: 'right',
-      },
-    ]}
-  </Block>
-));
-
-const LearnHow = () => (
-  <Block background="light">
-    {[
-      {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
-        title: 'Learn How',
-      },
-    ]}
-  </Block>
-);
-
-const TryOut = () => (
-  <Block id="try">
-    {[
-      {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'left',
-        title: 'Try it Out',
-      },
-    ]}
-  </Block>
-);
-
-const Description = () => (
-  <Block background="dark">
-    {[
-      {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
-        title: 'Description',
-      },
-    ]}
-  </Block>
-);
+const FeatureCallout = () =>
+  features.map(({ title, content }, index) => (
+    <Block background={index % 2 === 0 ? 'dark' : 'light'}>
+      {[
+        {
+          content,
+          title
+        }
+      ]}
+    </Block>
+  ));
 
 const Showcase = props => {
   if ((siteConfig.users || []).length === 0) {
     return null;
   }
 
-  const showcase = siteConfig.users.filter(user => user.pinned).map(user => (
-    <a href={user.infoLink} key={user.infoLink}>
-      <img src={user.image} alt={user.caption} title={user.caption} />
-    </a>
-  ));
+  const showcase = siteConfig.users
+    .filter(user => user.pinned)
+    .map(user => (
+      <a href={user.infoLink} key={user.infoLink}>
+        <img src={user.image} alt={user.caption} title={user.caption} />
+      </a>
+    ));
 
   return (
     <div className="productShowcaseSection paddingBottom">
@@ -221,9 +190,6 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Showcase language={language} />
         </div>
       </div>
     );
