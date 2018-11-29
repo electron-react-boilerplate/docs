@@ -1,9 +1,8 @@
 {
   "docs": {
     "Getting Started": ["installation"],
-    "Basics": ["adding-assets", "reading-files", "faq"],
+    "Basics": ["building", "packaging", "adding-assets", "faq"],
     "Testing": ["component-tests", "e2e-tests"],
-    "Packaging": ["packaging"],
     "Advanced": ["debugging-production-build", "internals"],
     "Guides": ["upgrade-guide"],
     "Community Content": ["example-apps"]

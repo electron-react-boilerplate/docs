@@ -13,6 +13,10 @@
         "title": "Adding Dependencies",
         "sidebar_label": "Adding Dependencies"
       },
+      "building": {
+        "title": "Building",
+        "sidebar_label": "Building"
+      },
       "component-tests": {
         "title": "Component Tests",
         "sidebar_label": "Component Tests"
@@ -36,6 +40,10 @@
       "installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
+      },
+      "internals": {
+        "title": "Internals",
+        "sidebar_label": "Internals"
       },
       "introduction": {
         "title": "Intro",
@@ -120,10 +128,10 @@
       "Getting Started": "Getting Started",
       "Basics": "Basics",
       "Testing": "Testing",
-      "Packaging": "Packaging",
       "Advanced": "Advanced",
       "Guides": "Guides",
-      "Community Content": "Community Content"
+      "Community Content": "Community Content",
+      "Packaging": "Packaging"
     }
   },
   "pages-strings": {
