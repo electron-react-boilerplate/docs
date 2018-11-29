@@ -98,21 +98,18 @@ const Features = () => (
       {
         content:
           'Make changes to your app and preview the changes without having to refresh your app. Changes are made so that the state of your app is not lost.',
-        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
         title: 'Faster Iteration: Hot Reloading'
       },
       {
         content:
           'Bulding scalable apps without types can only go so far. Get type errors while developing your app. Errors are thrown during compile-time and runtime',
-        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
         title: 'Scalable: Incremental Typing'
       },
       {
         content:
           'Optimization and minification of code with webpack comes out of the box. This avoids running into perforamnce bottlenecks associated with traditional electron apps',
-        image: imgUrl('logo/logo.png'),
         imageAlign: 'top',
         title: 'Performance: Build Optimizations'
       }
