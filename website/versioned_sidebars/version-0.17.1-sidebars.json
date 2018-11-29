@@ -1,0 +1,27 @@
+{
+  "version-0.17.1-docs": {
+    "Getting Started": [
+      "version-0.17.1-installation"
+    ],
+    "Basics": [
+      "version-0.17.1-building",
+      "version-0.17.1-packaging",
+      "version-0.17.1-adding-assets",
+      "version-0.17.1-faq"
+    ],
+    "Testing": [
+      "version-0.17.1-component-tests",
+      "version-0.17.1-e2e-tests"
+    ],
+    "Advanced": [
+      "version-0.17.1-debugging-production-build",
+      "version-0.17.1-internals"
+    ],
+    "Guides": [
+      "version-0.17.1-upgrade-guide"
+    ],
+    "Community Content": [
+      "version-0.17.1-example-apps"
+    ]
+  }
+}

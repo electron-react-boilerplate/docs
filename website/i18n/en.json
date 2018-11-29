@@ -116,6 +116,38 @@
       "version-0.17.0-upgrade-guide": {
         "title": "Upgrade Guide",
         "sidebar_label": "Upgrade Guide"
+      },
+      "version-0.17.1-adding-assets": {
+        "title": "Adding Assets",
+        "sidebar_label": "Adding Assets"
+      },
+      "version-0.17.1-building": {
+        "title": "Building",
+        "sidebar_label": "Building"
+      },
+      "version-0.17.1-component-tests": {
+        "title": "Component Tests",
+        "sidebar_label": "Component Tests"
+      },
+      "version-0.17.1-e2e-tests": {
+        "title": "End to End Tests",
+        "sidebar_label": "End to End Tests"
+      },
+      "version-0.17.1-example-apps": {
+        "title": "Example Apps",
+        "sidebar_label": "Example Apps"
+      },
+      "version-0.17.1-faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
+      },
+      "version-0.17.1-internals": {
+        "title": "Internals",
+        "sidebar_label": "Internals"
+      },
+      "version-0.17.1-packaging": {
+        "title": "Packaging",
+        "sidebar_label": "Packaging"
       }
     },
     "links": {
