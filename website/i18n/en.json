@@ -30,8 +30,8 @@
         "sidebar_label": "End to End Tests"
       },
       "example-apps": {
-        "title": "Example Apps",
-        "sidebar_label": "Example Apps"
+        "title": "Apps Built With ERB",
+        "sidebar_label": "Apps Built With ERB"
       },
       "faq": {
         "title": "FAQ",
@@ -134,8 +134,8 @@
         "sidebar_label": "End to End Tests"
       },
       "version-0.17.1-example-apps": {
-        "title": "Example Apps",
-        "sidebar_label": "Example Apps"
+        "title": "Apps Built With ERB",
+        "sidebar_label": "Apps Built With ERB"
       },
       "version-0.17.1-faq": {
         "title": "FAQ",
@@ -152,7 +152,7 @@
     },
     "links": {
       "Docs": "Docs",
-      "Demos": "Demos",
+      "Examples": "Examples",
       "Help": "Help",
       "Blog": "Blog"
     },

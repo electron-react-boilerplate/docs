@@ -1,7 +1,7 @@
 ---
 id: version-0.17.1-example-apps
-title: Example Apps
-sidebar_label: Example Apps
+title: Apps Built With ERB
+sidebar_label: Apps Built With ERB
 original_id: example-apps
 ---
 

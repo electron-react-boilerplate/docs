@@ -1,7 +1,7 @@
 ---
 id: example-apps
-title: Example Apps
-sidebar_label: Example Apps
+title: Apps Built With ERB
+sidebar_label: Apps Built With ERB
 ---
 
 It is useful to look at examples of apps built with electron-react-boilerplate to get an idea of how to scale past the initial foundation of the app. Here are some examples of fairly-sized open source apps built with electron-react-boilerplate

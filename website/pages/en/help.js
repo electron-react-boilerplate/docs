@@ -13,19 +13,20 @@ class Help extends React.Component {
     const language = this.props.language || '';
     const supportLinks = [
       {
+        title: 'Browse Docs',
         content: `Learn more using the [documentation on this site.](${docUrl(
           'doc1.html',
           language
-        )})`,
-        title: 'Browse Docs'
+        )})`
       },
       {
-        content: 'Ask questions about the documentation and project',
-        title: 'Join the community'
+        title: 'Join the community',
+        content:
+          'Ask questions about the documentation and project [on Gitter](https://gitter.im/electron-react-boilerplate/Lobby)'
       },
       {
-        content: "Find out what's new with this project",
-        title: 'Stay up to date'
+        title: 'Stay up to date',
+        content: "Find out what's new with this project"
       }
     ];
 
