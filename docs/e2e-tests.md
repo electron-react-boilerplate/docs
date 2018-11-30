@@ -29,6 +29,22 @@ Simply by reading this test, we can infer what it does:
 
 For more writing tests with Testcafe, refer to [their docs](https://devexpress.github.io/testcafe/documentation/test-api/).
 
+## Running Tests
+
+After you have written E2E tests, we can now run tests. E2E tests must be built before running them. So we can run `yarn build-e2e` to build the E2E tests and then `yarn test-e2e`:
+
+```bash
+$ yarn build-e2e
+$ yarn test-e2e
+```
+
+If you would like to run the E2E tests in the background without them opening (headlessly), run `$ START_MINIMIZED=true yarn build-e2e` and then run the E2E tests:
+
+```bash
+$ START_MINIMIZED=true yarn build-e2e
+$ yarn test-e2e
+```
+
 ### Watching Tests
 
 Similar to watching component tests, can be watched as well. This can be done by running `yarn test-e2e-live`. `testcafe-live` is used to watch tests and run.
