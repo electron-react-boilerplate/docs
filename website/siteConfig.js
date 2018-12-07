@@ -59,7 +59,7 @@ const siteConfig = {
   cleanUrl: true,
 
   // Google analytics
-  gaTrackingId: 'UA-127797742',
+  gaTrackingId: 'UA-127797742-1',
 
   // Open Graph and Twitter card images.
   ogImage: 'logo/logo.png',
