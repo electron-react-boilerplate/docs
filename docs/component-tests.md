@@ -4,7 +4,7 @@ title: Component Tests
 sidebar_label: Component Tests
 ---
 
-Component tests in ERB use [Jest](https://jestjs.io) and [Enzyme](https://github.com/airbnb/enzyme). While Jest is popular for React testing, it is also very capable of testing Node applications as well. Enzyme provides some utilities that make it easier to test React applications.
+Component tests in ERB use [Jest](https://jestjs.io) and [Enzyme](https://github.com/airbnb/enzyme). While Jest is popular for React testing, it is also capable of testing Node applications as well. Enzyme provides some utilities that make it easier to test React applications.
 
 ## Writing Component Tests
 

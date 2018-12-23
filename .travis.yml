@@ -6,4 +6,12 @@ node_js:
 before_install:
   - npm i -g yarn@latest
 
+install:
+  - yarn
+  - sudo pip install proselint
+
+script:
+  - yarn test
+  - yarn lint-prose
+
 cache: yarn
