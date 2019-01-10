@@ -13,6 +13,10 @@
         "title": "Adding Dependencies",
         "sidebar_label": "Adding Dependencies"
       },
+      "app-showcase": {
+        "title": "App Showcase",
+        "sidebar_label": "App Showcase"
+      },
       "building": {
         "title": "Building",
         "sidebar_label": "Building"
@@ -25,13 +29,17 @@
         "title": "Demos",
         "sidebar_label": "Demos"
       },
+      "dev-tools": {
+        "title": "DevTools",
+        "sidebar_label": "DevTools"
+      },
       "e2e-tests": {
         "title": "End to End Tests",
         "sidebar_label": "End to End Tests"
       },
-      "example-apps": {
-        "title": "Apps Built With ERB",
-        "sidebar_label": "Apps Built With ERB"
+      "editor-configuration": {
+        "title": "Editor Configuration",
+        "sidebar_label": "Editor Configuration"
       },
       "faq": {
         "title": "FAQ",
@@ -61,97 +69,18 @@
         "title": "Styling",
         "sidebar_label": "Styling"
       },
+      "tool-tips": {
+        "title": "Tool Tips",
+        "sidebar_label": "Tool Tips"
+      },
       "upgrade-guide": {
         "title": "Upgrade Guide",
         "sidebar_label": "Upgrade Guide"
-      },
-      "version-0.16.0-adding-assets": {
-        "title": "Adding Assets",
-        "sidebar_label": "Adding Assets"
-      },
-      "version-0.16.0-adding-dependencies": {
-        "title": "Adding Dependencies",
-        "sidebar_label": "Adding Dependencies"
-      },
-      "version-0.16.0-component-tests": {
-        "title": "Component Tests",
-        "sidebar_label": "Component Tests"
-      },
-      "version-0.16.0-demos": {
-        "title": "Demos",
-        "sidebar_label": "Demos"
-      },
-      "version-0.16.0-e2e-tests": {
-        "title": "End to End Tests",
-        "sidebar_label": "End to End Tests"
-      },
-      "version-0.16.0-example-apps": {
-        "title": "Example Apps",
-        "sidebar_label": "Example Apps"
-      },
-      "version-0.16.0-faq": {
-        "title": "FAQ",
-        "sidebar_label": "FAQ"
-      },
-      "version-0.16.0-installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "version-0.16.0-introduction": {
-        "title": "Intro",
-        "sidebar_label": "Intro"
-      },
-      "version-0.16.0-packaging": {
-        "title": "Packaging",
-        "sidebar_label": "Packaging"
-      },
-      "version-0.16.0-reading-files": {
-        "title": "Reading Files",
-        "sidebar_label": "Reading Files"
-      },
-      "version-0.16.0-styling": {
-        "title": "Styling",
-        "sidebar_label": "Styling"
-      },
-      "version-0.17.0-upgrade-guide": {
-        "title": "Upgrade Guide",
-        "sidebar_label": "Upgrade Guide"
-      },
-      "version-0.17.1-adding-assets": {
-        "title": "Adding Assets",
-        "sidebar_label": "Adding Assets"
-      },
-      "version-0.17.1-building": {
-        "title": "Building",
-        "sidebar_label": "Building"
-      },
-      "version-0.17.1-component-tests": {
-        "title": "Component Tests",
-        "sidebar_label": "Component Tests"
-      },
-      "version-0.17.1-e2e-tests": {
-        "title": "End to End Tests",
-        "sidebar_label": "End to End Tests"
-      },
-      "version-0.17.1-example-apps": {
-        "title": "Apps Built With ERB",
-        "sidebar_label": "Apps Built With ERB"
-      },
-      "version-0.17.1-faq": {
-        "title": "FAQ",
-        "sidebar_label": "FAQ"
-      },
-      "version-0.17.1-internals": {
-        "title": "Internals",
-        "sidebar_label": "Internals"
-      },
-      "version-0.17.1-packaging": {
-        "title": "Packaging",
-        "sidebar_label": "Packaging"
       }
     },
     "links": {
       "Docs": "Docs",
+      "Showcase": "Showcase",
       "Examples": "Examples",
       "Help": "Help",
       "Blog": "Blog"
@@ -162,8 +91,7 @@
       "Testing": "Testing",
       "Advanced": "Advanced",
       "Guides": "Guides",
-      "Community Content": "Community Content",
-      "Packaging": "Packaging"
+      "Community Content": "Community Content"
     }
   },
   "pages-strings": {

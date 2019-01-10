@@ -13,8 +13,10 @@ const siteConfig = {
 
   headerLinks: [
     { doc: 'installation', label: 'Docs' },
+    { doc: 'app-showcase', label: 'Showcase' },
     {
-      href: 'http://github.com/electron-react-boilerplate/examples',
+      href:
+        'http://github.com/electron-react-boilerplate/examples#table-of-contents',
       label: 'Examples'
     },
     { page: 'help', label: 'Help' },

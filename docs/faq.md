@@ -16,3 +16,24 @@ Electron apps face huge hurdles when it comes to matching native performance. Th
 The collaborators use `yarn` and our CI's use `yarn` as well, so we recommend `yarn` over `npm` to avoid compatibility problems.
 
 There is nothing stopping anyone from using `npm` over `yarn` in their projects, but if they do that and they end up running into bugs because of it, we probably won't be able to help them.
+
+## How do I skip building the DLL immediately after install?
+
+Install the dependency with the `--ignore-scripts` flag. Here's an example:
+```bash
+yarn add some-dep --ignore-scripts
+```
+
+To always have the `--ignore-scripts` flag on, you can add this to your yarnrc.
+```ignore
+# Your .yarnrc file located in the root of the project or any directories above
+--ignore-scripts true
+```
+
+To always have the `--ignore-scripts` flag on for specific commands:
+```ignore
+# Your .yarnrc file located in the root of the project or any directories above
+
+# This will set the --ignore-scripts flag whenever running yarn add
+--add.ignore-scripts true
+```
