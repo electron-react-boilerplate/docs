@@ -9,6 +9,7 @@
     "build": "yarn workspace @electron-react-boilerplate/site build",
     "lint": "eslint .",
     "lint-prose": "cp .proselintrc ~/ && proselint docs website/blog website/pages",
+    "publish-gh-pages": "yarn workspace @electron-react-boilerplate/site publish-gh-pages",
     "start": "yarn workspace @electron-react-boilerplate/site start",
     "test": "yarn lint && yarn build",
     "version": "yarn workspace @electron-react-boilerplate/site version"
