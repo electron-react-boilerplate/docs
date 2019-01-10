@@ -26,10 +26,10 @@ To package apps with options:
 
 ```bash
 $ yarn package --[option]
-# Example: yarn package --foo
+# Example: yarn package --mac
 ```
 
-:bulb: You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable:
+> You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
 
 ```bash
 $ DEBUG_PROD=true yarn package

@@ -18,7 +18,7 @@ apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter l
 * [Jest](https://github.com/orta/vscode-jest)
 * [ES6 Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 * [React Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-:bulb: *If you are using the `flow-for-vscode` plugin, make sure to disable the `flowtype-errors/show-errors` eslint rule in the `.eslintrc` by setting it to `0`*
+> *If you are using the `flow-for-vscode` plugin, make sure to disable the `flowtype-errors/show-errors` eslint rule in the `.eslintrc` by setting it to `0`*
 
 **Sublime**
 * [Editorconfig Integration](https://github.com/sindresorhus/editorconfig-sublime#readme)
