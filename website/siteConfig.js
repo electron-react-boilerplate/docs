@@ -19,6 +19,11 @@ const siteConfig = {
         'http://github.com/electron-react-boilerplate/examples#table-of-contents',
       label: 'Examples'
     },
+    {
+      href:
+        'http://github.com/electron-react-boilerplate/electron-react-boilerplate',
+      label: 'GitHub'
+    },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' }
   ],
