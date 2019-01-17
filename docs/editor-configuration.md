@@ -4,12 +4,19 @@ title: Editor Configuration
 sidebar_label: Editor Configuration
 ---
 
-**Atom**
+**VSCode**
+
+> vscode will suggest installing the plugins recommended by electron-react-boilerplate. This is the recommended way of installing the recommended editor plugins
+
+If you would like to manually install the plugins you can use the `code` executable. If you have `code` in your `PATH`, you can run the following command:
+
 ```bash
-apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter linter-eslint language-babel autocomplete-modules file-icons
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dzannotti.vscode-babel-coloring
+code --install-extension EditorConfig.EditorConfig
+code --install-extension flowtype.flow-for-vscode
 ```
 
-**VSCode**
 * [Editorconfig](https://github.com/editorconfig/editorconfig-vscode)
 * [ESLint](https://github.com/Microsoft/vscode-eslint)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
@@ -18,7 +25,11 @@ apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter l
 * [Jest](https://github.com/orta/vscode-jest)
 * [ES6 Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 * [React Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-> *If you are using the `flow-for-vscode` plugin, make sure to disable the `flowtype-errors/show-errors` eslint rule in the `.eslintrc` by setting it to `0`*
+
+**Atom**
+```bash
+apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter linter-eslint language-babel autocomplete-modules file-icons
+```
 
 **Sublime**
 * [Editorconfig Integration](https://github.com/sindresorhus/editorconfig-sublime#readme)
@@ -29,7 +40,6 @@ apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter l
 * [Node Snippets](https://packagecontrol.io/packages/JavaScript%20%26%20NodeJS%20Snippets)
 * [ES6 Snippets](https://packagecontrol.io/packages/ES6-Toolkit)
 
-**Others**
+**Other Editors**
 * [Editorconfig](http://editorconfig.org/#download)
 * [ESLint](http://eslint.org/docs/user-guide/integrations#editors)
-* Babel Syntax Plugin
