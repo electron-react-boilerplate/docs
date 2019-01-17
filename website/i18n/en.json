@@ -61,6 +61,10 @@
         "title": "Intro",
         "sidebar_label": "Intro"
       },
+      "learning-resources": {
+        "title": "Learning Resources",
+        "sidebar_label": "Learning Resources"
+      },
       "packaging": {
         "title": "Packaging",
         "sidebar_label": "Packaging"
