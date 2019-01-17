@@ -26,7 +26,7 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 [Link](https://github.com/falcon-client/falcon)
 
-[**A (experimental) fast, modern, and extensible database client for SQLite**](https://github.com/falcon-client/falcon)
+[**A (experimental) fast, modern, and extenable database client for SQLite**](https://github.com/falcon-client/falcon)
 
 ![falcon](/img/app-showcase/falcon.png)
 
