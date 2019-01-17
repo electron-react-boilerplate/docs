@@ -20,7 +20,7 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 [**A minimally disruptive and maximally efficient note taking app**](https://recollectr.io)
 
-![recollector](/img/app-showcase/recollector.mp4)
+![recollector](/img/app-showcase/recollector.png)
 
 ## Falcon (Open Source)
 
@@ -28,7 +28,7 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 [**A (experimental) fast, modern, and extensible database client for SQLite**](https://github.com/falcon-client/falcon)
 
-![falcon](https://raw.githubusercontent.com/falcon-client/falcon/master/internals/img/falcon-demo.png)
+![falcon](/img/app-showcase/falcon.png)
 
 ## DBGlass (Open Source)
 
