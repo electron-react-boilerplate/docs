@@ -45,6 +45,10 @@
         "title": "FAQ",
         "sidebar_label": "FAQ"
       },
+      "installation-debugging-solutions": {
+        "title": "Installation Debugging Solutions",
+        "sidebar_label": "Installation Debugging Solutions"
+      },
       "installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
@@ -56,6 +60,10 @@
       "introduction": {
         "title": "Intro",
         "sidebar_label": "Intro"
+      },
+      "learning-resources": {
+        "title": "Learning Resources",
+        "sidebar_label": "Learning Resources"
       },
       "packaging": {
         "title": "Packaging",

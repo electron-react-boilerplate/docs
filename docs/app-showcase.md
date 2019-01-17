@@ -6,30 +6,82 @@ sidebar_label: App Showcase
 
 Here are some awesome apps that are based on Electron React Boilerplate!
 
-## [Popcorn Time Desktop](https://github.com/amilajack/popcorn-time-desktop)
-**A Modern and Experimental Popcorn Time Client**
+## Popcorn Time Desktop (Open Source)
+
+[Link](https://github.com/amilajack/popcorn-time-desktop)
+
+[**A Modern and Experimental Popcorn Time Client**](https://github.com/amilajack/popcorn-time-desktop)
+
 ![popcorn time desktop](/img/app-showcase/popcorn-time-desktop.png)
 
-## [DBGlass](https://github.com/web-pal/DBGlass)
-**A cross-platform PostgreSQL client**
+## Recollector (Company)
+
+[Link](https://recollectr.io)
+
+[**A minimally disruptive and maximally efficient note taking app**](https://recollectr.io)
+
+![recollector](/img/app-showcase/recollector.mp4)
+
+## DBGlass (Open Source)
+
+[Link](https://github.com/web-pal/DBGlass)
+
+[**A cross-platform PostgreSQL client**](https://github.com/web-pal/DBGlass)
+
 ![dbglass](/img/app-showcase/dbglass.jpg)
 
-## [PopSQL](https://popsql.io) (Company)
-**Modern, collaborative SQL editor for your team**
+## PopSQL (Company)
+
+[Link](https://popsql.io)
+
+[**Modern, collaborative SQL editor for your team**](https://popsql.io)
+
 ![popsql](/img/app-showcase/popsql.gif)
 
-## [Channels](https://github.com/BuckyMaler/channels)
-**The Mac App for YouTube Channels**
+## Channels (Open Source)
+
+[Link](https://github.com/BuckyMaler/channels)
+
+[**The Mac App for YouTube Channels**](https://github.com/BuckyMaler/channels)
+
 ![channels](/img/app-showcase/channels.jpg)
 
-## [Truly Wireless](https://truly.co) (Company)
-**Cross-platform VoIP client for businesses**
+## Timesheets (Open Source)
 
-## [ivideo](https://github.com/phobal/ivideo)
-**A client that can watch video of domestic(China) mainstream video platform**
 
-## [GDLauncher](https://github.com/gorilla-devs/GDLauncher)
-**A Minecraft custom launcher with a strong focus on the user experience**
+[Link](https://github.com/hardchor/timesheets)
 
-## [Vocab](https://github.com/ft-interactive/vocab) (by [Financial Times](https://www.ft.com))
-**Rapidly scaffold out visual-vocabulary projects**
+[**Timesheets is an app that makes time tracking incredibly easy**](https://github.com/hardchor/timesheets)
+
+
+## Truly Wireless (Company)
+
+
+[Link](https://truly.co)
+
+[**Cross-platform VoIP client for businesses**](https://truly.co)
+
+
+## ivideo (Open Source)
+
+
+[Link](https://github.com/phobal/ivideo)
+
+[**A client that can watch video of domestic(China) mainstream video platform**](https://github.com/phobal/ivideo)
+
+
+## GDLauncher (Open Source)
+
+
+[Link](https://github.com/gorilla-devs/GDLauncher)
+
+[**A Minecraft custom launcher with a strong focus on the user experience**](https://github.com/gorilla-devs/GDLauncher)
+
+
+## Vocab (by [Financial Times](https://www.ft.com)) (Open Source)
+
+
+[Link](https://github.com/ft-interactive/vocab)
+
+[**Rapidly scaffold out visual-vocabulary projects**](https://github.com/ft-interactive/vocab)
+
