@@ -45,6 +45,10 @@
         "title": "FAQ",
         "sidebar_label": "FAQ"
       },
+      "installation-debugging-solutions": {
+        "title": "Installation Debugging Solutions",
+        "sidebar_label": "Installation Debugging Solutions"
+      },
       "installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
