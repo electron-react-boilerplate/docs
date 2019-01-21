@@ -4,6 +4,8 @@ const siteConfig = {
   title: 'Electron React Boilerplate',
   tagline: 'A Foundation for Scalable Cross-Platform Apps',
   url: 'https://electron-react-boilerplate.js.org',
+  editUrl:
+    'https://github.com/electron-react-boilerplate/site/blob/master/docs/',
   cname: 'electron-react-boilerplate.js.org',
   baseUrl: '/',
   projectName: 'site',
