@@ -4,7 +4,7 @@ title: Upgrade Guide
 sidebar_label: Upgrade Guide
 ---
 
-This project moves pretty quickly and demonstrates cutting edge best practices of JavaScript, Electron, and React. Keep in mind that this is a boilerplate project with a purposefully tiny feature set (a counter). The boilerplate will enable you to build an advanced app with a large feature set, and over time your advanced app will diverge from the simple feature set of the boilerplate. Hopefully this boilerplate helps keep you educated about the quickly evolving best practices.
+This project moves pretty quickly and demonstrates the best practices of JavaScript, Electron, and React. Keep in mind that this is a boilerplate project with a purposefully tiny feature set (a counter). The boilerplate will enable you to build an advanced app with a large feature set, and over time your advanced app will diverge from the simple feature set of the boilerplate.
 
 #### Tips for keeping your app modernized
 * Track explanations of the changes between versions in this [Upgrade Guide](https://electron-react-boilerplate.js.org/docs/upgrade-guide#ugrading-to-0170-from-0160) and in the [CHANGELOG](https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/next/CHANGELOG.md).
