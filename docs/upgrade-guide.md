@@ -4,6 +4,15 @@ title: Upgrade Guide
 sidebar_label: Upgrade Guide
 ---
 
+This project moves pretty quickly and demonstrates cutting edge best practices of JavaScript, Electron, and React. Keep in mind that this is a boilerplate project with a purposefully tiny feature set (a counter). The boilerplate will enable you to build an advanced app with a large feature set, and over time your advanced app will diverge from the simple feature set of the boilerplate. Hopefully this boilerplate helps keep you educated about the quickly evolving best practices.
+
+#### Tips for keeping your app modernized
+* Track explanations of the changes between versions in this [Upgrade Guide](https://electron-react-boilerplate.js.org/docs/upgrade-guide#ugrading-to-0170-from-0160) and in the [CHANGELOG](https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/next/CHANGELOG.md).
+* Try merging new releases into your project, especially early on, but expect your project to evolve beyond the boilerplate and for merging upstream changes into your project to become untenable.
+* Subscribe to changes from this repo. Even if you can't merge every change into your project, watching changes from this repo will help ensure you don't miss major changes, and help you appreciate the smaller ones.
+* If something breaks in your app, try it in the boilerplate. Seeing if something works in the boilerplate can help you understand if it's a configuration issue inherited by the boilerplate or something you broke on your own. This is especially relevant for building native modules, Webpack config changes, babel config changes, additional renderer processes, etc.
+* Be realistic about what this project gives you. The boilerplate is meant to be a working educational example. It's a demonstration, not a black-box development framework for you to build on top of. Inspect the boilerplate, understand how it works, and tweak your app to meet your needs.
+
 ## Ugrading to 0.17.0 from 0.16.0
 
 `0.17.0` introduces breaking changes caused by the migration from a two package.json structure to a single package.json structure. Move all the dependencies from `./app/package.json` to `./package.json`'s `dependencies` property.
