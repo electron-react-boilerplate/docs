@@ -4,7 +4,7 @@ title: Building
 sidebar_label: Building
 ---
 
-Webpack is one of the most crucial parts of ERB's infrastructure as with many other React projects. It provides us with many optimizations such as dead code stripping, tree shaking, and code splitting to name a few. In the case that you want to scale your application and add many components and layers of abstraction, Webpack allows you to without sacrificing the performance of your app.
+Webpack is one of the most crucial parts of ERB's infrastructure as with many other React projects. It provides us with many optimizations such as dead code stripping, tree shaking, and code splitting to name a few. Webpack allows you to scale your application and add many components and layers of abstraction without sacrificing the performance of your app.
 
 ## Build an App
 
