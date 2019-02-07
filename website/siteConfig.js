@@ -26,6 +26,10 @@ const siteConfig = {
         'http://github.com/electron-react-boilerplate/electron-react-boilerplate',
       label: 'GitHub'
     },
+    {
+      href: 'https://opencollective.com/electron-react-boilerplate-594',
+      label: 'Donate'
+    },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' }
   ],
