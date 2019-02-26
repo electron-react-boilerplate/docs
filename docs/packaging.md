@@ -10,7 +10,7 @@ To package apps for the local platform:
 $ yarn package
 ```
 
-The packaged app will be inside the `/release` directory.
+The packaged app will be inside the `release` directory.
 
 ## Building to Multiple Platforms
 
