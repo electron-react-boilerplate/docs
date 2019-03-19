@@ -10,10 +10,6 @@ The website for [electron-react-boilerplate](https://github.com/electron-react-b
 ```sh
 # Install dependencies
 $ yarn
-```
-1. Run your dev server:
-
-```sh
 # Start the site
 $ yarn start
 ```
