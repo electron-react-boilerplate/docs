@@ -4,7 +4,7 @@ title: End to End Tests
 sidebar_label: End to End Tests
 ---
 
-End to End (E2E) tests are high level tests that tests. Instead of testing lower level functionality, such as if compnents render correctly or functions take certain arguments, they test at the application level. These are typically the kinds of tests that you would run to check if you app works. We have chosen [Testcafe](https://github.com/DevExpress/testcafe) as our testing framework. It is a much nicer alternative to [webdriverio](http://webdriver.io), [spectron](https://electronjs.org/spectron), and [selenium](https://www.seleniumhq.org).
+End to End (E2E) tests are high level tests that tests. Instead of testing lower level functionality, such as if components render correctly or functions take certain arguments, they test at the application level. These are typically the kinds of tests that you would run to check if you app works. We have chosen [Testcafe](https://github.com/DevExpress/testcafe) as our testing framework. It is a much nicer alternative to [webdriverio](http://webdriver.io), [spectron](https://electronjs.org/spectron), and [selenium](https://www.seleniumhq.org).
 
 ## Writing End to End Tests
 
