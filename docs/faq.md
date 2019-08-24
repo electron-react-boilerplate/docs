@@ -8,7 +8,7 @@ sidebar_label: FAQ
 
 If you are looking for an example of electron-react-boilerplate that uses [TypeScript](http://typescriptlang.org), see our [TypeScript example](https://github.com/electron-react-boilerplate/examples/tree/master/examples/typescript).
 
-At the time of the coneption of this boilerplate, TypeScript integration with React was experimental and Flow support for React was much better. As time passed, however, TypeScript has matured and has improved it's integration with other open source tooling. For this reason we are considering migrating ERB itself to TypeScript.
+At the time of the conception of this boilerplate, TypeScript integration with React was experimental and Flow support for React was much better. As time passed, however, TypeScript has matured and has improved it's integration with other open source tooling. For this reason we are considering migrating ERB itself to TypeScript.
 
 ## Why is webpack a good idea for electron?
 
