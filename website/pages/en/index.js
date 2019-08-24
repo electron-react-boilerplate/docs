@@ -1,3 +1,4 @@
+/* eslint max-classes-per-file: off */
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 
