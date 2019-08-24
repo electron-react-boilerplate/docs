@@ -32,6 +32,7 @@
     ],
     "rules": {
       "class-methods-use-this": "off",
+      "flowtype-errors/show-errors": "off",
       "import/no-dynamic-require": "off",
       "import/no-extraneous-dependencies": "off",
       "import/no-unresolved": "off",
