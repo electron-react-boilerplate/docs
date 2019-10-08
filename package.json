@@ -20,10 +20,10 @@
     "eslint-config-bliss": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "yarn": "^1.17.3"
+    "yarn": "^1.19.1"
   },
   "engines": {
-    "yarn": ">=1.12.3"
+    "yarn": ">=1.19.1"
   },
   "eslintConfig": {
     "extends": [
