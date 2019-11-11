@@ -15,7 +15,7 @@
     "version": "yarn workspace @electron-react-boilerplate/site version"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-bliss": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
