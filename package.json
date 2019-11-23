@@ -1,29 +1,31 @@
 {
-  "repository": "https://github.com/electron-react-boilerplate/site.git",
-  "license": "MIT",
+  "name": "@electron-react-boilerplate/site",
   "private": true,
-  "workspaces": [
-    "website"
-  ],
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "build": "yarn workspace @electron-react-boilerplate/site build",
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
+    "docusaurus": "docusaurus",
     "lint": "eslint .",
-    "lint-prose": "cp .proselintrc ~/ && proselint docs website/blog website/pages",
-    "publish-gh-pages": "yarn workspace @electron-react-boilerplate/site publish-gh-pages",
-    "start": "yarn workspace @electron-react-boilerplate/site start",
-    "test": "yarn lint && yarn build",
-    "version": "yarn workspace @electron-react-boilerplate/site version"
+    "lint-prose": "cp .proselintrc ~/ && proselint docs blog pages",
+    "start": "docusaurus start",
+    "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
+    "swizzle": "docusaurus swizzle",
+    "test": "yarn lint && yarn lint-prose && yarn build"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.35",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.35",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.7.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-bliss": "^4.3.0",
+    "eslint-config-bliss": "^4.4.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "yarn": "^1.17.3"
-  },
-  "engines": {
-    "yarn": ">=1.12.3"
+    "eslint-plugin-react": "^7.16.0"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +42,7 @@
       "jsx-a11y/iframe-has-title": "off",
       "react/jsx-filename-extension": "off",
       "no-unused-vars": "off",
+      "react/jsx-props-no-spreading": "off",
       "react/destructuring-assignment": "off",
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-no-target-blank": "off",
@@ -48,5 +51,22 @@
       "react/prefer-stateless-function": "off",
       "react/prop-types": "off"
     }
+  },
+  "renovate": {
+    "extends": [
+      "bliss"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
