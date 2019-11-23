@@ -44,7 +44,6 @@ lib
 /build
 
 # generated files
-website/.docusaurus
 .docusaurus
 .cache-loader
 
