@@ -8,7 +8,7 @@ sidebar_label: Roadmap
 
 #### Migrate to TypeScript from Flow (0.19.0)
 
-This is currently a work in progress for the ERB team. The reason why we waited for a while before migrating to TypeScript is because we wanted users to use ESLint and TypeScript as opposed to TypeScript and TSLint. ESLint and TypeScript integration was initially very unstable and experimental so we wanted to wait a while before migrating. Now that the tooling is more stable, we have recently started working on the migration.
+This is currently a work in progress for the ERB team. The reason why we waited for a while before migrating to TypeScript is because we wanted users to use ESLint and TypeScript as opposed to TypeScript and TSLint. ESLint and TypeScript integration was initially unstable and experimental so we wanted to wait a while before migrating. Now that the tooling is more stable, we have recently started working on the migration.
 
 #### Disabling Sourcemaps in Production (0.19.0)
 
@@ -22,4 +22,4 @@ For context, see [electron/electron/issues/5113](https://github.com/electron/ele
 
 #### Migrate to Azure Pipelines
 
-Azure Pipelines allows concurrent builds for Windows, MacOS, and Linux. Rather than using Travis CI and Appveyor, Azure Pipelines will allow us to use a single CI for all platforms. While Travis CI does support Windows we've noticed that builds on it tend to be slow and the Windows builds tend to be very buggy.
+Azure Pipelines allows concurrent builds for Windows, MacOS, and Linux. Rather than using Travis CI and Appveyor, Azure Pipelines will allow us to use a single CI for all platforms. While Travis CI does support Windows we've noticed that builds on it tend to be slow and the Windows builds tend to be unreliable and flaky.

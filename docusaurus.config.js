@@ -31,7 +31,6 @@ module.exports = {
           href: 'https://opencollective.com/electron-react-boilerplate-594',
           label: 'Donate'
         },
-        { page: 'help', label: 'Help' },
         { blog: true, label: 'Blog' }
       ]
     },
