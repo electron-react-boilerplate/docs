@@ -35,7 +35,6 @@ module.exports = {
       ]
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -97,6 +96,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js')
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css')
         },
         googleAnalytics: {
           trackingID: 'UA-127797742-1'

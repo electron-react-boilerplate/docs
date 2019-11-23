@@ -16,4 +16,4 @@ $ yarn start
 
 ## Project Stucture and Contributing
 
-For details, see [`./website/README.md`](https://github.com/electron-react-boilerplate/site/blob/master/website/README.md)
+For details, see [the docusarus docs](https://v2.docusaurus.io)
