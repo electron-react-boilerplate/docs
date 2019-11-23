@@ -8,6 +8,7 @@
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
     "lint": "eslint .",
+    "lint-prose": "cp .proselintrc ~/ && proselint docs blog pages",
     "start": "docusaurus start",
     "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
     "swizzle": "docusaurus swizzle",
