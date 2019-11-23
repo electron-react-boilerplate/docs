@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
+    "lint": "eslint .",
     "start": "docusaurus start",
     "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
-    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "test": "yarn lint"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.35",
@@ -32,6 +34,7 @@
       "jsx-a11y/iframe-has-title": "off",
       "react/jsx-filename-extension": "off",
       "no-unused-vars": "off",
+      "react/jsx-props-no-spreading": "off",
       "react/destructuring-assignment": "off",
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-no-target-blank": "off",
@@ -57,5 +60,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-bliss": "^4.4.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0"
   }
 }
