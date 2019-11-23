@@ -12,7 +12,3 @@ This project moves pretty quickly and demonstrates the best practices of JavaScr
 * Subscribe to changes from this repo. Even if you can't merge every change into your project, watching changes from this repo will help ensure you don't miss major changes, and help you appreciate the smaller ones.
 * If something breaks in your app, try it in the boilerplate. Seeing if something works in the boilerplate can help you understand if it's a configuration issue inherited by the boilerplate or something you broke on your own. This is especially relevant for building native modules, Webpack config changes, babel config changes, additional renderer processes, etc.
 * Be realistic about what this project gives you. The boilerplate is meant to be a working educational example. It's a demonstration, not a black-box development framework for you to build on top of. Inspect the boilerplate, understand how it works, and tweak your app to meet your needs.
-
-## Ugrading to 0.17.0 from 0.16.0
-
-`0.17.0` introduces breaking changes caused by the migration from a two package.json structure to a single package.json structure. Move all the dependencies from `./app/package.json` to `./package.json`'s `dependencies` property.

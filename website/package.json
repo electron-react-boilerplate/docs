@@ -4,17 +4,15 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "crowdin-upload": "crowdin --config ../crowdin.yaml upload sources --auto-update -b master",
-    "crowdin-download": "crowdin --config ../crowdin.yaml download -b master",
-    "examples": "docusaurus-examples",
-    "start": "docusaurus-start",
-    "build": "docusaurus-build",
-    "publish-gh-pages": "docusaurus-publish",
-    "write-translations": "docusaurus-write-translations",
-    "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
   },
   "devDependencies": {
-    "docusaurus": "^1.13.0"
+    "@docusaurus/core": "^2.0.0-alpha.35",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.35"
   }
 }
