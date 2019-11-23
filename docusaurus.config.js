@@ -36,47 +36,48 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Getting Started',
-      //         to: 'getting-started'
-      //       },
-      //       {
-      //         label: 'Examples',
-      //         url: 'https://github.com/neon-bindings/examples'
-      //       },
-      //       {
-      //         label: 'API Reference',
-      //         to: 'https://neon-bindings.com/api/neon/index.html'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-      //       {
-      //         label: 'Community Chat',
-      //         url: 'https://rust-bindings-slackin.herokuapp.com'
-      //       },
-      //       {
-      //         label: 'Twitter',
-      //         to: 'https://twitter.com/rustneon'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'More',
-      //     items: [
-      //       {
-      //         label: 'GitHub',
-      //         to: 'https://github.com/neon-bindings/neon'
-      //       }
-      //     ]
-      //   }
-      // ],
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Getting Started',
+              to: 'docs/installation'
+            }
+          ]
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Showcase',
+              to: 'docs/app-showcase'
+            },
+            {
+              label: 'Community Chat',
+              to: 'https://spectrum.chat/electron-react-blpt'
+            },
+            {
+              label: 'Twitter',
+              to: 'https://twitter.com/eBoilerplate'
+            },
+            {
+              label: 'Blog',
+              to: 'blog'
+            }
+          ]
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'GitHub',
+              to:
+                'https://github.com/electron-react-boilerplate/electron-react-boilerplate'
+            }
+          ]
+        }
+      ],
       logo: {
         alt: 'ERB Logo',
         src: 'logo/logo.svg'

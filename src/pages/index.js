@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Faster Iteration: Hot Reloading</>,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Make changes to your app and preview the changes without having to
+        refresh your app. Changes are made so that the state of your app is not
+        lost.
       </>
     )
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Scalable: Incremental Typing</>,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Bulding scalable apps without types can only go so far. Get type errors
+        while developing your app. Errors are thrown during compile-time and
+        runtime
       </>
     )
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Performance: Build Optimizations</>,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Optimization and minification of code with webpack comes out of the box.
+        This avoids running into perforamnce bottlenecks associated with
+        traditional electron apps
       </>
     )
   }
