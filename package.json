@@ -20,6 +20,13 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-bliss": "^4.4.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0"
+  },
   "eslintConfig": {
     "extends": [
       "airbnb",
@@ -61,12 +68,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^6.7.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-bliss": "^4.4.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0"
   }
 }
