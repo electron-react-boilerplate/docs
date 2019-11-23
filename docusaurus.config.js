@@ -16,6 +16,7 @@ module.exports = {
       links: [
         { to: 'docs/installation', label: 'Docs' },
         { to: 'docs/app-showcase', label: 'Showcase' },
+        { to: 'docs/roadmap', label: 'Roadmap' },
         {
           href:
             'http://github.com/electron-react-boilerplate/examples#table-of-contents',
