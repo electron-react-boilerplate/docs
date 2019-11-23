@@ -12,7 +12,7 @@
     "start": "docusaurus start",
     "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
     "swizzle": "docusaurus swizzle",
-    "test": "yarn lint"
+    "test": "yarn lint && yarn lint-prose && yarn build"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.35",
