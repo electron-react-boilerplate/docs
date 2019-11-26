@@ -13,7 +13,7 @@ Building a production version of your app will optimize the JS, CSS, and SASS of
 To create a production build, run `yarn build`:
 
 ```bash
-$ yarn build
+yarn build
 ```
 
 ## Inspecting Build Size
@@ -25,5 +25,5 @@ If you want to reduce the build size of your app, you can open a treemap of your
 To create a production build, run `OPEN_ANALYZER=true yarn build`:
 
 ```bash
-$ OPEN_ANALYZER=true yarn build
+OPEN_ANALYZER=true yarn build
 ```

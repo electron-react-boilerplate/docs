@@ -63,7 +63,7 @@ describe('Counter Component', () => {
 Tests can be run by running `yarn test`:
 
 ```bash
-$ yarn test
+yarn test
 ```
 
 ### Snapshot Tests

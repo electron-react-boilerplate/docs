@@ -34,15 +34,15 @@ For more writing tests with Testcafe, refer to [their docs](https://devexpress.g
 After you have written E2E tests, we can now run tests. E2E tests must be built before running them. So we can run `yarn build-e2e` to build the E2E tests and then `yarn test-e2e`:
 
 ```bash
-$ yarn build-e2e
-$ yarn test-e2e
+yarn build-e2e
+yarn test-e2e
 ```
 
-If you would like to run the E2E tests in the background without them opening (headlessly), run `$ START_MINIMIZED=true yarn build-e2e` and then run the E2E tests:
+If you would like to run the E2E tests in the background without them opening (headlessly), run `START_MINIMIZED=true yarn build-e2e` and then run the E2E tests:
 
 ```bash
-$ START_MINIMIZED=true yarn build-e2e
-$ yarn test-e2e
+START_MINIMIZED=true yarn build-e2e
+yarn test-e2e
 ```
 
 ### Watching Tests
