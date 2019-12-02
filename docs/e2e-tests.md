@@ -47,4 +47,4 @@ yarn test-e2e
 
 ### Watching Tests
 
-Similar to watching component tests, can be watched as well. This can be done by running `yarn test-e2e-live`. `testcafe-live` is used to watch tests and run.
+Similar to watching component tests, can be watched as well. This can be done by running `yarn test-e2e-live`. `testcafe --live` is used to watch tests and run.
