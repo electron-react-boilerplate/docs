@@ -102,6 +102,9 @@ module.exports = {
         },
         googleAnalytics: {
           trackingID: 'UA-127797742-1'
+        },
+        gtag: {
+          trackingID: 'UA-127797742-1'
         }
       }
     ]
