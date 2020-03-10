@@ -15,17 +15,17 @@
     "test": "yarn lint && yarn lint-prose && yarn build"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.40",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.40",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@docusaurus/core": "^2.0.0-alpha.43",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.43",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-bliss": "^4.7.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.3"
+    "eslint-plugin-react": "^7.19.0"
   },
   "eslintConfig": {
     "extends": [
@@ -34,7 +34,6 @@
     ],
     "rules": {
       "class-methods-use-this": "off",
-      "flowtype-errors/show-errors": "off",
       "import/no-dynamic-require": "off",
       "import/no-extraneous-dependencies": "off",
       "import/no-unresolved": "off",
