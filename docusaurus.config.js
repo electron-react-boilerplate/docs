@@ -4,8 +4,18 @@ module.exports = {
   url: 'https://electron-react-boilerplate.js.org/',
   baseUrl: '/',
   favicon: 'logo/logo.png',
-  organizationName: 'electron-react-boilerplate', // Usually your GitHub org/user name.
-  projectName: 'site', // Usually your repo name.
+  organizationName: 'electron-react-boilerplate',
+  projectName: 'site',
+  plugins: [
+    '@docusaurus/plugin-google-analytics',
+    '@docusaurus/plugin-google-gtag',
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000
+      }
+    ]
+  ],
   themeConfig: {
     navbar: {
       title: 'Electron React Boilerplate',
@@ -83,11 +93,16 @@ module.exports = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} Electron React Boilerplate`
     },
-
     algolia: {
       // "Search only api key". Safe to keep this public
       apiKey: '7989826be21123972626ebaacdc71b1a',
       indexName: 'electron-react-boilerplate'
+    },
+    googleAnalytics: {
+      trackingID: 'UA-127797742-1'
+    },
+    gtag: {
+      trackingID: 'UA-127797742-1'
     }
   },
   presets: [
@@ -99,12 +114,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
-        },
-        googleAnalytics: {
-          trackingID: 'UA-127797742-1'
-        },
-        gtag: {
-          trackingID: 'UA-127797742-1'
         }
       }
     ]
