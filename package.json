@@ -10,7 +10,6 @@
     "lint": "eslint .",
     "lint-prose": "cp .proselintrc ~/ && proselint docs blog",
     "start": "docusaurus start",
-    "style": "sass src/css/custom-bootstrap.scss src/css/bootstrap.css",
     "swizzle": "docusaurus swizzle",
     "test": "yarn lint && yarn lint-prose && yarn build"
   },

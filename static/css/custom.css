@@ -1,12 +1,4 @@
-.navListItem.navListItemActive {
-    font-weight: bold;
-}
-.mainContainer .post a:not(.anchor) {
-    background-color: lightgray;
-    border-bottom: 1px dotted darkgray;
-    text-decoration: none !important;
-}
-  
+/* your custom css */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
