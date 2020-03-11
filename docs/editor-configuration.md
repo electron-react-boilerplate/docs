@@ -4,9 +4,23 @@ title: Editor Configuration
 sidebar_label: Editor Configuration
 ---
 
-**VSCode**
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-> vscode will suggest installing the plugins recommended by electron-react-boilerplate. This is the recommended way of installing the recommended editor plugins
+<Tabs
+  defaultValue="vscode"
+  values={[
+    { label: 'VSCode', value: 'vscode', },
+    { label: 'Atom', value: 'atom', },
+    { label: 'Sublime', value: 'sublime', },
+    { label: 'Other', value: 'other', },
+  ]
+}>
+<TabItem value="vscode">
+
+:::tip
+vscode will suggest installing the plugins recommended by electron-react-boilerplate. This is the recommended way of installing the recommended editor plugins
+:::
 
 If you would like to manually install the plugins you can use the `code` executable. If you have `code` in your `PATH`, you can run the following command:
 
@@ -14,24 +28,20 @@ If you would like to manually install the plugins you can use the `code` executa
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension EditorConfig.EditorConfig
-code --install-extension flowtype.flow-for-vscode
 ```
 
-* [Editorconfig](https://github.com/editorconfig/editorconfig-vscode)
-* [ESLint](https://github.com/Microsoft/vscode-eslint)
-* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [Flow](https://github.com/flowtype/flow-for-vscode)
-* [Babel](https://github.com/dzannotti/vscode-babel)
-* [Jest](https://github.com/orta/vscode-jest)
-* [ES6 Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-* [React Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+</TabItem>
 
-**Atom**
+<TabItem value="atom">
+
 ```bash
 apm install editorconfig linter linter-eslint language-babel atom-typescript
 ```
 
-**Sublime**
+</TabItem>
+
+<TabItem value="sublime">
+
 * [Editorconfig Integration](https://github.com/sindresorhus/editorconfig-sublime#readme)
 * [TypeScript](https://packagecontrol.io/packages/TypeScript)
 * [Linting](https://github.com/SublimeLinter/SublimeLinter3)
@@ -41,6 +51,12 @@ apm install editorconfig linter linter-eslint language-babel atom-typescript
 * [Node Snippets](https://packagecontrol.io/packages/JavaScript%20%26%20NodeJS%20Snippets)
 * [ES6 Snippets](https://packagecontrol.io/packages/ES6-Toolkit)
 
-**Other Editors**
+</TabItem>
+
+<TabItem value="other">
+
 * [Editorconfig](http://editorconfig.org/#download)
 * [ESLint](http://eslint.org/docs/user-guide/integrations#editors)
+
+</TabItem>
+</Tabs>

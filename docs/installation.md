@@ -12,7 +12,9 @@ cd your-project-name
 yarn
 ```
 
-💡 **If you have installation or compilation issues with this project, please see [our installation debugging guide](installation-debugging-solutions)**
+:::tip
+If you have installation or compilation issues with this project, please see [our installation debugging guide](installation-debugging-solutions)
+:::
 
 ## Run
 
