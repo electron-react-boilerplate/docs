@@ -28,11 +28,12 @@ code --install-extension flowtype.flow-for-vscode
 
 **Atom**
 ```bash
-apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter linter-eslint language-babel autocomplete-modules file-icons
+apm install editorconfig linter linter-eslint language-babel atom-typescript
 ```
 
 **Sublime**
 * [Editorconfig Integration](https://github.com/sindresorhus/editorconfig-sublime#readme)
+* [TypeScript](https://packagecontrol.io/packages/TypeScript)
 * [Linting](https://github.com/SublimeLinter/SublimeLinter3)
 * [ESLint Integration](https://github.com/roadhump/SublimeLinter-eslint)
 * [Syntax Highlighting](https://github.com/babel/babel-sublime)
