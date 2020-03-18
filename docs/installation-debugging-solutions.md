@@ -21,4 +21,4 @@ This  to be a list of solutions for installation issues with this project:
 
 ### Debugging Release Builds
 
-`DEBUG_PROD=true yarn build && DEBUG_PROD=true yarn start`
+`yarn cross-env DEBUG_PROD=true yarn build && yarn cross-env DEBUG_PROD=true yarn start`

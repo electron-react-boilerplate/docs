@@ -32,7 +32,7 @@ yarn package --[option]
 > You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
 
 ```bash
-DEBUG_PROD=true yarn package
+yarn cross-env DEBUG_PROD=true yarn package
 ```
 
 ## Running the Production Version of Your App
@@ -48,6 +48,6 @@ yarn start
 If your production app isn't working as expected, you can use the `DEBUG_PROD` env variable to build the necessary files and then start the app. It isn't necessary to package the app:
 
 ```bash
-DEBUG_PROD=true yarn build
-DEBUG_PROD=true yarn start
+yarn cross-env DEBUG_PROD=true yarn build
+yarn cross-env DEBUG_PROD=true yarn start
 ```
