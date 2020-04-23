@@ -32,7 +32,7 @@ const features = [
     description: (
       <>
         Optimization and minification of code with webpack comes out of the box.
-        This avoids running into perforamnce bottlenecks associated with
+        This avoids running into performance bottlenecks associated with
         traditional electron apps
       </>
     )
