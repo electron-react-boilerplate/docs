@@ -1004,15 +1004,15 @@
     "@docusaurus/utils" "^2.0.0-alpha.48"
     globby "^10.0.1"
 
-"@docusaurus/plugin-google-analytics@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.37.tgz#e546bf61b35d4abd7e65bb9c4f6c02ba5c2297e3"
-  integrity sha512-RCR2UHL6OyYSupRxVn0x4PBJf4VJ1Xob/5Ps0ang915KfrUjLh51aXtvtx3SlRqsMJQt0aS/K5RFsPrpyfP38g==
-
 "@docusaurus/plugin-google-analytics@^2.0.0-alpha.48":
   version "2.0.0-alpha.48"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.48.tgz#e3e21be77c3021bc69e6affd5b70f40d621b7652"
   integrity sha512-/yUY5qPQA/ciwviv+ndpTSJRzZAUWHBpMKH8wk9WOzCdHsHv4IYt4boV47aZBNlaNMfGmCS5eUlj1NZ+KLTPsQ==
+
+"@docusaurus/plugin-google-analytics@^2.0.0-alpha.54":
+  version "2.0.0-alpha.54"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.54.tgz#6fcacded6d308c5fee400aa4df704b904ae8c46d"
+  integrity sha512-rymn4Jyd4nq3Zpl+eazn1TNF0AOr58FCB/j2BJrN4+wp8GROgeiGHRVOcQm0tAndvQbStpUqOXAra1ukrvMxFw==
 
 "@docusaurus/plugin-google-gtag@^2.0.0-alpha.37":
   version "2.0.0-alpha.37"
