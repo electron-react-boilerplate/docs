@@ -17,6 +17,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'Electron React Boilerplate',
       logo: {
@@ -105,6 +106,14 @@ module.exports = {
       trackingID: 'UA-127797742-1'
     }
   },
+  scripts: [
+    {
+      src:
+        'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+      async: true
+    },
+    '/js/ads.js'
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
