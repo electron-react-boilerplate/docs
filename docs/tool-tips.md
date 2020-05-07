@@ -17,16 +17,16 @@ For example,
 
 ```bash
 # When cloning this boilerplate for the first time
-git clone --depth=1 https://github.com/chentsulin/electron-react-boilerplate.git your-project-name
+git clone --depth=1 https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
 # To fetch updated copy of boilerplate
-git fetch --depth 1 git@github.com:chentsulin/electron-react-boilerplate.git
+git fetch --depth 1 git@github.com:electron-react-boilerplate/electron-react-boilerplate.git
 ```
 
 ### Further Readings:
 
 * [`git clone` documentation](https://git-scm.com/docs/git-clone)
 * [`git fetch` documentation](https://git-scm.com/docs/git-fetch)
-* [Question: Best way to clean repository after initializing new project? #782](https://github.com/chentsulin/electron-react-boilerplate/issues/782)
+* [Question: Best way to clean repository after initializing new project? #782](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/782)
 
 ## How to add _missing_ +flow-type+ definitions for third party modules
 
@@ -78,8 +78,8 @@ This would turn off flow-typed errors for the module.
 
 ### Further Readings:
 
-* [Flow rasies "Required module not found" error #1024](https://github.com/chentsulin/electron-react-boilerplate/issues/1024)
-* [flow-typed directory](https://github.com/chentsulin/electron-react-boilerplate/tree/master/flow-typed)
+* [Flow rasies "Required module not found" error #1024](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1024)
+* [flow-typed directory](https://github.com/electron-react-boilerplate/electron-react-boilerplate/tree/master/flow-typed)
 
 ## How to skip building the DLL immediately after install
 
@@ -87,4 +87,4 @@ See our [FAQ](faq)
 
 ### Further Readings:
 
-* [Any way to use 'yarn add' without immediately rebuilding the DLL? #1034](https://github.com/chentsulin/electron-react-boilerplate/issues/1034)
+* [Any way to use 'yarn add' without immediately rebuilding the DLL? #1034](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1034)
