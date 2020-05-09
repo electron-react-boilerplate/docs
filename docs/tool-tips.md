@@ -1,7 +1,7 @@
 ---
 id: tool-tips
-title: Tool Tips
-sidebar_label: Tool Tips
+title: Tooling Tips
+sidebar_label: Tooling Tips
 ---
 
 This page is intended for sharing less known tips about tools used in this boilerplate. Tools are computer programs that are used to maintain and support electron-react-boilerplate. For example, `git`, `yarn`, `npm` etc.

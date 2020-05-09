@@ -12,7 +12,7 @@ By convention, all component test modules have the following filename suffix: `.
 
 We start by writing a function that will setup the actions of our component and importing the necessary modules:
 
-```js
+```js title="Counter.spec.js"
 import { spy } from 'sinon';
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';

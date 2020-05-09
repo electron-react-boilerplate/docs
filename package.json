@@ -14,18 +14,18 @@
     "test": "yarn lint && yarn lint-prose && yarn build"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.43",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/plugin-google-gtag": "^2.0.0-alpha.37",
-    "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.43",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "@docusaurus/core": "^2.0.0-alpha.54",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.54",
+    "@docusaurus/plugin-google-gtag": "^2.0.0-alpha.54",
+    "@docusaurus/plugin-sitemap": "^2.0.0-alpha.54",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.54",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-bliss": "^4.7.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-bliss": "^5.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0"
   },
