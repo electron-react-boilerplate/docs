@@ -1,7 +1,7 @@
 ---
 id: ci
-title: CI
-sidebar_label: CI
+title: Continuous Integration (CI)
+sidebar_label: Continuous Integration (CI)
 ---
 
 All the following configurations work with electron-react-boilerplate.

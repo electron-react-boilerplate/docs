@@ -17,6 +17,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    hideOnScroll: true,
     disableDarkMode: true,
     navbar: {
       title: "Electron React Boilerplate",
@@ -25,20 +26,23 @@ module.exports = {
         src: "logo/logo.png",
       },
       links: [
-        { to: "docs/installation", label: "Docs" },
-        { to: "docs/app-showcase", label: "Showcase" },
-        { to: "docs/roadmap", label: "Roadmap" },
+        { to: "docs/installation", label: "Docs", position: "left" },
+        { to: "docs/app-showcase", label: "Showcase", position: "left" },
+        { to: "docs/roadmap", label: "Roadmap", position: "left" },
         {
+          position: "left",
           href:
             "http://github.com/electron-react-boilerplate/examples#table-of-contents",
           label: "Examples",
         },
         {
+          position: "left",
           href:
             "http://github.com/electron-react-boilerplate/electron-react-boilerplate",
           label: "GitHub",
         },
         {
+          position: "left",
           href: "https://opencollective.com/electron-react-boilerplate-594",
           label: "Donate",
         },

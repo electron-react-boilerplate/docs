@@ -12,7 +12,7 @@ By convention, all component test modules have the following filename suffix: `.
 
 We start by writing a function that will setup the actions of our component and importing the necessary modules:
 
-```js title="Counter.spec.js"
+```js title="tests/Counter.spec.js"
 import { spy } from 'sinon';
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
@@ -40,7 +40,9 @@ function setup() {
 
 Now we describe a set of tests with `describe()` and describe the test itself with `it()`:
 
-```js
+```js title="tests/Counter.spec.js"
+// --snip--
+
 describe('Counter Component', () => {
   it('should match exact snapshot', () => {
     const { actions } = setup();

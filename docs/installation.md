@@ -5,10 +5,14 @@ sidebar_label: Installation
 ---
 
 ```bash
-# First, clone the repo via git:
-git clone --depth=1 https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
+# Clone the boilerplate:
+git clone --depth=1 \
+  https://github.com/electron-react-boilerplate/electron-react-boilerplate \
+  your-project-name
+
 cd your-project-name
-# And then install dependencies with yarn:
+
+# Install dependencies with yarn:
 yarn
 ```
 
