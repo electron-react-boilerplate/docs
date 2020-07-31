@@ -33,23 +33,23 @@ Similar syntax is used for SCSS too.
 
 ### Examples
 
-* https://github.com/falcon-client/falcon/blob/master/app/app.global.css#L1[Falcon Client]
+* [Falcon Client](https://github.com/falcon-client/falcon/blob/master/app/app.global.css#L1)
 
 ### Further Readings
 
-* https://github.com/chentsulin/electron-react-boilerplate/issues/1087[Cannot import CSS? #1087]
-* https://github.com/chentsulin/electron-react-boilerplate/issues/1076[Imported (not global) css is not working. #1076]
+* [Cannot import CSS? #1087](https://github.com/chentsulin/electron-react-boilerplate/issues/1087)
+* [Imported (not global) css is not working. #1076](https://github.com/chentsulin/electron-react-boilerplate/issues/1076)
 
 == How to use SCSS
 
 Use following example project to learn how to migrate from CSS to SCSS
 
-* https://github.com/amilajack/popcorn-time-desktop[Popcorn Time Desktop]
-* https://github.com/amilajack/erb-bootstrap-example[ERB Bootstrap Example]
+* [Popcorn Time Desktop](https://github.com/amilajack/popcorn-time-desktop)
+* [ERB Bootstrap Example](https://github.com/amilajack/erb-bootstrap-example)
 
 ### Further Readings
 
-* https://github.com/chentsulin/electron-react-boilerplate/issues/984[How to remove css-modules ? #984] 
+* [How to remove css-modules ? #984](https://github.com/chentsulin/electron-react-boilerplate/issues/984)
 
 ## Where to put images
 
@@ -59,9 +59,9 @@ Do not use `resources` folder. It is actually intended for build assets.
 
 ### Example
 
-* https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images[Example of `./app/img` folder]
-* https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11[Usage of image in `./app/img` folder]
+* [Example of `./app/img` folder](https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images)
+* [Usage of image in `./app/img` folder](https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11)
 
 ### Further Readings
 
-* https://github.com/chentsulin/electron-react-boilerplate/issues/951[background-image from resources #951]
+* [background-image from resources #951](https://github.com/chentsulin/electron-react-boilerplate/issues/951)
