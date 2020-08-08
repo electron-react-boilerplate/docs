@@ -8,7 +8,7 @@ Webpack is one of the most crucial parts of ERB's infrastructure as with many ot
 
 ## Build an App
 
-Building a production version of your app will optimize the JS, CSS, and SASS of your application. It also 
+Building a production version of your app will optimize the JS, CSS, and SASS of your application.
 
 To create a production build, run `yarn build`:
 
