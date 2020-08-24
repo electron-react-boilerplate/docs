@@ -6,20 +6,16 @@ sidebar_label: Adding Assets
 
 A common part of applications is importing assets, such as images, fonts, and files.
 
-Assets can be used at build-time with Webpack (e.g. ) or dynamically using.
-
 ## Build-time Assets
 
-Build-time assets are managed by Webpack. Importing them is similar to importing JS modules.
+In the context of ERB, build-time assets are those that are managed by Webpack. They are imported like JS modules and transformed to encoded strings by Webpack.
 
-In these cases, Webpack handles the importing of assets. Out of the box, ERB supports the following assets:
+Out of the box, ERB supports the following assets:
 
 | Asset    |  Supported Extensions    |
 |----------|:-----------------------: |
 | Images   |  `.jpg`, `.png`, `.jpg`  |
 | Fonts    |  `.svg`, `.ttf`, `.eot`  | 
-
-Images are imported as encoded strings.
 
 ```js
 import catImage from './cat.jpg';
@@ -33,8 +29,7 @@ function CatComponent() {
 
 ## Run-time Assets
 
-If you do not want assets managed by Webpack, you will need to include their locations in the `build.files` property within `package.json`. 
-This is so that [electron-builder's configuration](https://www.electron.build/configuration/contents#files) knows which files to include when packaging.
+In the context of ERB, run-time assets are separate files that are included in the packaged application and used through file paths. You will need to include their locations in `package.json['build']['files']`. This is so that [electron-builder's configuration](https://www.electron.build/configuration/contents#files) knows to include them when packaging.
 
 (Note that these locations are relative to the `app/` directory)
 
@@ -58,7 +53,7 @@ exec(`echo '${pythonScript}' | ${pythonBinary}`, (error, stdout) => {
 });
 ```
 
-You can use `asar` (the format that `electron-builder` packages into) to see the contents of the packaged build.
+As a useful tip, you can use `asar` (the format that `electron-builder` packages into) to see the contents of the packaged build. You will see that it contains content included within `package.json['build']['files']`.
 
 ```bash
 asar list release/mac/ElectronReact.app/Contents/Resources/app.asar
