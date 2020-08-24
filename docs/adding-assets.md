@@ -38,8 +38,6 @@ This is so that [electron-builder's configuration](https://www.electron.build/co
 
 (Note that these locations are relative to the `app/` directory)
 
-For example, you can include Python within your electron app and call it at run-time.
-
 ```jsonc
 "build": {
     ...
@@ -49,6 +47,8 @@ For example, you can include Python within your electron app and call it at run-
     ],
 }
 ```
+
+For example, you can include Python within your electron app and call it at run-time to print `Hello World from Python`.
 
 ```js
 const pythonBinary = path.join(__dirname, 'assets', 'python');
