@@ -33,7 +33,10 @@ function CatComponent() {
 
 ## Run-time Assets
 
-If you do not want assets managed by Webpack, then you will need to include their locations in the `build` property within `package.json`. (Note that these locations are relative to the `app/` directory)
+If you do not want assets managed by Webpack, you will need to include their locations in the `build.files` property within `package.json`. 
+This is so that [electron-builder's configuration](https://www.electron.build/configuration/contents#files) knows which files to include when packaging.
+
+(Note that these locations are relative to the `app/` directory)
 
 For example, you can include Python within your electron app and call it at run-time.
 
