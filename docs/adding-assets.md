@@ -37,7 +37,7 @@ If you do not want assets managed by Webpack, then you will need to include thei
 
 For example, you can include Python within your electron app and call it at run-time.
 
-```
+```jsonc
 "build": {
     ...
     "files": [
@@ -57,6 +57,6 @@ exec(`echo '${pythonScript}' | ${pythonBinary}`, (error, stdout) => {
 
 You can use `asar` (the format that `electron-builder` packages into) to see the contents of the packaged build.
 
-```
+```bash
 asar list release/mac/ElectronReact.app/Contents/Resources/app.asar
 ```
