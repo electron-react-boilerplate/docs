@@ -44,6 +44,7 @@ For example, you can include Python within your electron app and call it at run-
       "assets/"
       ...
     ],
+}
 ```
 
 ```js
