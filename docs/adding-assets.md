@@ -53,7 +53,8 @@ exec(`echo '${pythonScript}' | ${pythonBinary}`, (error, stdout) => {
 });
 ```
 
-As a useful tip, you can use `asar` (the format that `electron-builder` packages into) to see the contents of the packaged build. You will see that it contains content included within `package.json['build']['files']`.
+[Here is a runnable example of this](https://github.com/electron-react-boilerplate/examples/commit/d1eddcd0e30ec22edd3fd3900ee3c12e1da4cdba)
+
 
 ```bash
 asar list release/mac/ElectronReact.app/Contents/Resources/app.asar
