@@ -10,6 +10,24 @@ sidebar_label: Roadmap
 
 * Migrate to [redux-toolkit](https://redux-toolkit.js.org/)
 
+## Future Releases
+
+## Release v1.4.0
+
+- Drop redux support
+- Restore electron preload as default
+- Auto update integration
+- Enhanced vscode debugger intetgration
+- Migrate to hooks
+- Publishing to web and ERB
+- Hot reload main process
+- docs
+  - using binary assets at runtime
+  - tray ERB app
+  - Examples with bootstrap
+  - Examples with material-ui
+- Video tutorial series
+
 # ✅ Past Releases
 
 ## Release v1.0.0
