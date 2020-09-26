@@ -6,26 +6,20 @@ module.exports = {
   favicon: "logo/logo.png",
   organizationName: "electron-react-boilerplate",
   projectName: "site",
-  plugins: [
-    "@docusaurus/plugin-google-analytics",
-    "@docusaurus/plugin-google-gtag",
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        cacheTime: 600 * 1000,
-      },
-    ],
-  ],
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: true,
+    },
     hideOnScroll: true,
-    disableDarkMode: true,
     navbar: {
       title: "Electron React Boilerplate",
       logo: {
         alt: "ERB Logo",
         src: "logo/logo.png",
       },
-      links: [
+      items: [
         { to: "docs/installation", label: "Docs", position: "left" },
         { to: "docs/app-showcase", label: "Showcase", position: "left" },
         { to: "docs/roadmap", label: "Roadmap", position: "left" },
