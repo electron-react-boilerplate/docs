@@ -30,7 +30,6 @@ This boilerplate uses a [two package.json structure](https://www.electron.build/
 
 ### Further Readings
 
-* See [Module Structure — Two package.json Structure](https://github.com/electron-react-boilerplate/electron-react-boilerplate/wiki/Module-Structure----Two-package.json-Structure) to see the rationale behind the two package.json structure.
 * See [Electron Documentation - Using Native Node Modules](https://www.electronjs.org/docs/tutorial/using-native-node-modules) to see how Electron uses native Node modules.
 * See [Node.js Documentation - Addons](https://nodejs.org/api/addons.html) to see what are native Node modules.
 
