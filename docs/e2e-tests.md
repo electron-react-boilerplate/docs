@@ -11,7 +11,7 @@ End to End (E2E) tests are high level tests that tests. Instead of testing lower
 By convention, all E2E test modules have the following filename suffix: `.e2e.js`. An example of test module filename would be `HomePage.e2e.js`.
 
 Here's some examples of E2E tests:
-* Testing if you app opens and closes
+* Testing if your app opens and closes
 * Testing if the title bar has the expected text
 * Testing if a popup shows after clicking a button
 
