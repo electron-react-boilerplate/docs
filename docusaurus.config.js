@@ -8,7 +8,7 @@ module.exports = {
   projectName: "site",
   themeConfig: {
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: "light",
       disableSwitch: true,
       respectPrefersColorScheme: true,
     },

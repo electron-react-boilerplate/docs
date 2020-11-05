@@ -37,10 +37,10 @@ Similar syntax is used for SCSS too.
 
 ### Further Readings
 
-* [Cannot import CSS? #1087](https://github.com/chentsulin/electron-react-boilerplate/issues/1087)
-* [Imported (not global) css is not working. #1076](https://github.com/chentsulin/electron-react-boilerplate/issues/1076)
+* [Cannot import CSS? #1087](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1087)
+* [Imported (not global) css is not working. #1076](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1076)
 
-== How to use SCSS
+### How to use SCSS
 
 Use following example project to learn how to migrate from CSS to SCSS
 
@@ -49,7 +49,7 @@ Use following example project to learn how to migrate from CSS to SCSS
 
 ### Further Readings
 
-* [How to remove css-modules ? #984](https://github.com/chentsulin/electron-react-boilerplate/issues/984)
+* [How to remove css-modules ? #984](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/984)
 
 ## Where to put images
 
@@ -64,4 +64,4 @@ Do not use `resources` folder. It is actually intended for build assets.
 
 ### Further Readings
 
-* [background-image from resources #951](https://github.com/chentsulin/electron-react-boilerplate/issues/951)
+* [[background-image from resources #951]](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/951)
