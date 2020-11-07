@@ -39,7 +39,7 @@ To always have the `--ignore-scripts` flag on for specific commands:
 
 ## Why am I having issues spawning an instance of my app?
 
-There are a few caveats with how `child_process.spawn()` operates in the context of an Electron app. If you are trying to spawn a packaged binary of your ERB app from a develoment instance (e.g. an instance of your app started with `yarn dev`), you may find that your packaged app starts with issues. This happens because ERB sets some environment variables in `yarn dev` that cause problems when set while spawning a packaged version of the app.
+There are a few caveats with how `child_process.spawn()` operates in the context of an Electron app. If you are trying to spawn a packaged binary of your ERB app from a develoment instance (e.g. an instance of your app started with `yarn start`), you may find that your packaged app starts with issues. This happens because ERB sets some environment variables in `yarn start` that cause problems when set while spawning a packaged version of the app.
 
 If this is an issue that you face, a workaround is to unset these variables prior to spawning the packaged app:
 ```js

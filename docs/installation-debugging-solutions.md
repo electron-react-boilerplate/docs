@@ -15,7 +15,7 @@ This  to be a list of solutions for installation issues with this project:
    yarn cache clean &&
    yarn &&
    yarn electron-rebuild &&
-   yarn dev
+   yarn start
    ```
 4. If you're on Windows, try using [cmder](http://cmder.net)
 
