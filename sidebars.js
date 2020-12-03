@@ -8,7 +8,7 @@ module.exports = {
       "adding-dependencies",
       "styling",
     ],
-    Testing: ["component-tests", "e2e-tests", "ci"],
+    Testing: ["component-tests", "ci"],
     Advanced: ["internals", "tool-tips", "dev-tools", "faq"],
     Guides: ["upgrade-guide"],
     "Community Content": ["app-showcase"],

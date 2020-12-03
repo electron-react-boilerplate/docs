@@ -86,10 +86,6 @@ module.exports = {
           ],
         },
       ],
-      logo: {
-        alt: "ERB Logo",
-        src: "logo/logo.svg",
-      },
       copyright: `Copyright © ${new Date().getFullYear()} Electron React Boilerplate`,
     },
     algolia: {

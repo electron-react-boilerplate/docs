@@ -10,7 +10,7 @@ Webpack configs are located inside the `./configs` directory
 
 ## Internal Scripts
 
-The scripts inside the `./internals/scripts` handle functionality that cannot be written as npm scripts.
+The scripts inside the `.erb/scripts` handle functionality that cannot be written as npm scripts.
 
 The scripts are the following:
 
