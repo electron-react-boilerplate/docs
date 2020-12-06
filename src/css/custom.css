@@ -4,14 +4,13 @@
  * Note: this is not a complete list of --ifm- variables.
  */
  :root {
-  --ifm-color-primary: rgb(112, 112, 112);
-  --ifm-color-primary-dark: black;
-  --ifm-color-primary-darker: black;
-  --ifm-color-primary-darkest: black;
-  --ifm-color-primary-light: white;
-  --ifm-color-primary-lighter: white;
-  --ifm-color-primary-lightest: white;
-  --ra-color-tip: black;
+  --ifm-color-primary: #b54692;
+  --ifm-color-primary-dark: #a33f83;
+  --ifm-color-primary-darker: #9a3b7c;
+  --ifm-color-primary-darkest: #60254d;
+  --ifm-color-primary-light: #be569d;
+  --ifm-color-primary-lighter: #c15fa2;
+  --ifm-color-primary-lightest: #cc7bb2;
 }
 
 #carbonads {

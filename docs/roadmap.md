@@ -4,7 +4,15 @@ title: Roadmap
 sidebar_label: Roadmap
 ---
 
-# 🔨 Current Release
+## Release v2.0.0
+
+- Migrate to `webpack@5`
+- React fast refresh
+- Drop Redux integration
+- Add macOS notarize support
+- Simplify directory structure
+- Remove counter app boilerplate example
+- Migrate to `electron@11`
 
 ## Release v1.2.0
 
