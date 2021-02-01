@@ -14,8 +14,8 @@
     "test": "yarn lint && yarn lint-prose && yarn build"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.f37987f32",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.f37987f32",
+    "@docusaurus/core": "^2.0.0-alpha.f48d435ce",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.f48d435ce",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
