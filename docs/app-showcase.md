@@ -56,40 +56,38 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 ## Timesheets (Open Source)
 
-
 [Link](https://github.com/hardchor/timesheets)
 
 [**Timesheets is an app that makes time tracking incredibly easy**](https://github.com/hardchor/timesheets)
 
-
 ## Truly Wireless (Company)
-
 
 [Link](https://truly.co)
 
 [**Cross-platform VoIP client for businesses**](https://truly.co)
 
-
 ## ivideo (Open Source)
-
 
 [Link](https://github.com/phobal/ivideo)
 
 [**A client that can watch video of domestic(China) mainstream video platform**](https://github.com/phobal/ivideo)
 
-
 ## GDLauncher (Open Source)
-
 
 [Link](https://github.com/gorilla-devs/GDLauncher)
 
 [**A Minecraft custom launcher with a strong focus on the user experience**](https://github.com/gorilla-devs/GDLauncher)
 
-
 ## Vocab (by [Financial Times](https://www.ft.com)) (Open Source)
-
 
 [Link](https://github.com/ft-interactive/vocab)
 
 [**Rapidly scaffold out visual-vocabulary projects**](https://github.com/ft-interactive/vocab)
 
+## ExpressLRS Configurator (Open Source)
+
+[Link](https://github.com/ExpressLRS/ExpressLRS-Configurator)
+
+[**A tool to build & flash ExpressLRS RC Link firmware**](https://github.com/ExpressLRS/ExpressLRS-Configurator)
+
+![ExpressLRS Configurator](/img/app-showcase/expresslrs-configurator.jpg)
