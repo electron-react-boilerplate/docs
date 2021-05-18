@@ -4,7 +4,7 @@ title: Adding Dependencies
 sidebar_label: Adding Dependencies
 ---
 
-## How to add modules to the project
+## Add modules to the project
 
 You will need to add other modules to this boilerplate, depending on the requirements of your project. For example, you may want to add [node-postgres](https://github.com/brianc/node-postgres) to communicate with PostgreSQL database, or
 [material-ui](http://www.material-ui.com/) to reuse React UI components.
@@ -30,7 +30,7 @@ This boilerplate uses a [two package.json structure](https://www.electron.build/
 
 ### Further Readings
 
-* See [Electron Documentation - Using Native Node Modules](https://www.electronjs.org/docs/tutorial/using-native-node-modules) to see how Electron uses native Node modules.
-* See [Node.js Documentation - Addons](https://nodejs.org/api/addons.html) to see what are native Node modules.
+- See [Electron Documentation - Using Native Node Modules](https://www.electronjs.org/docs/tutorial/using-native-node-modules) to see how Electron uses native Node modules.
+- See [Node.js Documentation - Addons](https://nodejs.org/api/addons.html) to see what are native Node modules.
 
 For an example app that uses this boilerplate and packages native dependencies, see [erb-sqlite-example](https://github.com/amilajack/erb-sqlite-example).
