@@ -114,6 +114,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          editUrl:
+            "https://github.com/electron-react-boilerplate/site/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
