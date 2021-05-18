@@ -11,12 +11,15 @@
     "lint-prose": "cp .proselintrc ~/ && proselint docs blog",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "test": "yarn lint && yarn lint-prose && yarn build"
+    "test": "yarn lint && yarn lint-prose && yarn build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.75",
     "@docusaurus/preset-classic": "^2.0.0-alpha.75",
     "classnames": "^2.3.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -66,6 +69,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,json}": [
+      "prettier --write --ignore-path .eslintignore",
+      "eslint --cache --fix"
     ]
   }
 }
