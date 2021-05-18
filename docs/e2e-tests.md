@@ -11,18 +11,21 @@ End to End (E2E) tests are high level tests that tests. Instead of testing lower
 By convention, all E2E test modules have the following filename suffix: `.e2e.js`. An example of test module filename would be `HomePage.e2e.js`.
 
 Here's some examples of E2E tests:
-* Testing if your app opens and closes
-* Testing if the title bar has the expected text
-* Testing if a popup shows after clicking a button
+
+- Testing if your app opens and closes
+- Testing if the title bar has the expected text
+- Testing if a popup shows after clicking a button
 
 Here's an example of an E2E test:
+
 ```js
-test('e2e', async t => {
-  await t.expect(getPageTitle()).eql('Hello Electron React!');
+test("e2e", async (t) => {
+  await t.expect(getPageTitle()).eql("Hello Electron React!");
 });
 ```
 
 Simply by reading this test, we can infer what it does:
+
 1. Gets the page title
 2. Asserts that it equals `'Hello Electron React!'`
 3. Returns a promise

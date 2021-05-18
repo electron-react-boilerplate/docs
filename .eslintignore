@@ -40,3 +40,5 @@ package.json
 dist
 build
 static
+
+.docusaurus/site-gh-pages

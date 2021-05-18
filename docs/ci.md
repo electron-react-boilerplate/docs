@@ -10,13 +10,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs
-  defaultValue="travis"
-  values={[
-    { label: 'Travis CI', value: 'travis', },
-    { label: 'Azure Pipelines', value: 'azure', },
-    { label: 'GitHub Actions', value: 'gh-actions', },
-    { label: 'AppVeyor', value: 'appveyor', },
-  ]
+defaultValue="travis"
+values={[
+{ label: 'Travis CI', value: 'travis', },
+{ label: 'Azure Pipelines', value: 'azure', },
+{ label: 'GitHub Actions', value: 'gh-actions', },
+{ label: 'AppVeyor', value: 'appveyor', },
+]
 }>
 <TabItem value="travis">
 
@@ -39,7 +39,7 @@ matrix:
       addons:
         apt:
           sources:
-            - sourceline: 'ppa:ubuntu-toolchain-r/test'
+            - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - gcc-multilib
             - g++-8
@@ -93,11 +93,9 @@ script:
   - yarn test
   - yarn build-e2e
   - yarn test-e2e
-
 ```
+
 </TabItem>
-
-
 
 <TabItem value="azure">
 
@@ -108,14 +106,14 @@ variables:
 strategy:
   matrix:
     linux:
-      imageName: 'ubuntu-16.04'
-      nodeVersion: '13.x'
+      imageName: "ubuntu-16.04"
+      nodeVersion: "13.x"
     mac:
-      imageName: 'macos-10.14'
-      nodeVersion: '13.x'
+      imageName: "macos-10.14"
+      nodeVersion: "13.x"
     windows:
-      imageName: 'windows-2019'
-      nodeVersion: '13.x'
+      imageName: "windows-2019"
+      nodeVersion: "13.x"
 
 pool:
   vmImage: $(imageName)
@@ -143,7 +141,7 @@ steps:
   # Install deps with yarn and run tests
   - script: yarn --frozen-lockfile && yarn test-all
     env:
-      DISPLAY: ':99.0'
+      DISPLAY: ":99.0"
   # Generate coverage report
   - script: yarn test --coverage --coverageReporters=cobertura
   # Publish coverage report
@@ -151,7 +149,6 @@ steps:
     inputs:
       codeCoverageTool: Cobertura
       summaryFileLocation: $(System.DefaultWorkingDirectory)/coverage/cobertura-coverage.xml
-
 ```
 
 </TabItem>
@@ -195,7 +192,6 @@ jobs:
 # Failing beacuse virtual framebuffer not installed
 #          yarn build-e2e
 #          yarn test-e2e
-
 ```
 
 </TabItem>

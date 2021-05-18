@@ -19,17 +19,20 @@ There is nothing stopping anyone from using `npm` over `yarn` in their projects,
 ## How do I skip building the DLL immediately after install?
 
 Install the dependency with the `--ignore-scripts` flag. Here's an example:
+
 ```bash
 yarn add some-dep --ignore-scripts
 ```
 
 To always have the `--ignore-scripts` flag on, you can add this to your yarnrc.
+
 ```ignore
 # Your .yarnrc file located in the root of the project or any directories above
 --ignore-scripts true
 ```
 
 To always have the `--ignore-scripts` flag on for specific commands:
+
 ```ignore
 # Your .yarnrc file located in the root of the project or any directories above
 
@@ -42,10 +45,14 @@ To always have the `--ignore-scripts` flag on for specific commands:
 There are a few caveats with how `child_process.spawn()` operates in the context of an Electron app. If you are trying to spawn a packaged binary of your ERB app from a develoment instance (e.g. an instance of your app started with `yarn start`), you may find that your packaged app starts with issues. This happens because ERB sets some environment variables in `yarn start` that cause problems when set while spawning a packaged version of the app.
 
 If this is an issue that you face, a workaround is to unset these variables prior to spawning the packaged app:
+
 ```js
 const newEnvVars = { ...process.env };
 delete newEnvVars.HOT;
 delete newEnvVars.START_HOT;
-newEnvVars.NODE_ENV = 'production';
-spawn('path/to/packaged/app.exe', [...args], { ...options, env: { ...newEnvVars } });
+newEnvVars.NODE_ENV = "production";
+spawn("path/to/packaged/app.exe", [...args], {
+  ...options,
+  env: { ...newEnvVars },
+});
 ```

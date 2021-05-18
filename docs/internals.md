@@ -14,6 +14,6 @@ The scripts inside the `.erb/scripts` handle functionality that cannot be writte
 
 The scripts are the following:
 
-* `CheckBuildExists.js`: Check of the main and renderer processes have been built. These processes must be build before running E2E tests
-* `CheckNodeEnv.js`: Assert that `NODE_ENV` is the expected value. Throw if assertion fails
-* `CheckPortInUse.js`: Finds a free port if default port for ERB is in use
+- `CheckBuildExists.js`: Check of the main and renderer processes have been built. These processes must be build before running E2E tests
+- `CheckNodeEnv.js`: Assert that `NODE_ENV` is the expected value. Throw if assertion fails
+- `CheckPortInUse.js`: Finds a free port if default port for ERB is in use

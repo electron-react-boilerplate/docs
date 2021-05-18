@@ -12,18 +12,16 @@ In the context of ERB, build-time assets are those that are managed by Webpack. 
 
 Out of the box, ERB supports the following assets:
 
-| Asset    |  Supported Extensions    |
-|----------|:-----------------------: |
-| Images   |  `.jpg`, `.png`, `.jpg`  |
-| Fonts    |  `.svg`, `.ttf`, `.eot`  | 
+| Asset  |  Supported Extensions  |
+| ------ | :--------------------: |
+| Images | `.jpg`, `.png`, `.jpg` |
+| Fonts  | `.svg`, `.ttf`, `.eot` |
 
 ```js
-import catImage from './cat.jpg';
+import catImage from "./cat.jpg";
 
 function CatComponent() {
-  return (
-    <img src={catImage} />
-  );
+  return <img src={catImage} />;
 }
 ```
 
@@ -46,7 +44,7 @@ In the context of ERB, run-time assets are separate files that are included in t
 For example, you can include Python within your electron app and call it at run-time to print `Hello World from Python`.
 
 ```js
-const pythonBinary = path.join(__dirname, 'assets', 'python');
+const pythonBinary = path.join(__dirname, "assets", "python");
 const pythonScript = 'print("Hello World from Python")';
 exec(`echo '${pythonScript}' | ${pythonBinary}`, (error, stdout) => {
   console.log(`stdout: ${stdout}`);

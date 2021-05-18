@@ -16,7 +16,7 @@ sidebar_label: Roadmap
 
 ## Release v1.2.0
 
-* Migrate to [redux-toolkit](https://redux-toolkit.js.org/)
+- Migrate to [redux-toolkit](https://redux-toolkit.js.org/)
 
 ## Future Releases
 
