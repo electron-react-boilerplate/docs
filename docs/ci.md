@@ -211,7 +211,7 @@ environment:
 cache:
   - '%LOCALAPPDATA%/Yarn'
   - node_modules
-  - app/node_modules
+  - build/app/node_modules
   - '%USERPROFILE%\.electron'
 
 matrix:

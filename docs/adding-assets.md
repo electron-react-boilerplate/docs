@@ -29,14 +29,14 @@ function CatComponent() {
 
 In the context of ERB, run-time assets are separate files that are included in the packaged application and used through file paths. You will need to include their locations in `package.json['build']['files']`. This is so that [electron-builder's configuration](https://www.electron.build/configuration/contents#files) knows to include them when packaging.
 
-(Note that these locations are relative to the `app/` directory)
+(Note that these locations are relative to the `src/` directory)
 
 ```jsonc
 "build": {
-    ...
+    // ...
     "files": [
       "assets/"
-      ...
+      // ...
     ],
 }
 ```

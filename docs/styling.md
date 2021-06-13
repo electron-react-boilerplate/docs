@@ -53,14 +53,14 @@ Use following example project to learn how to migrate from CSS to SCSS
 
 ## Where to put images
 
-`./app/img` is the recommended folder.
+`./src/img` is the recommended folder.
 
 Do not use `resources` folder. It is actually intended for build assets.
 
 ### Example
 
-- [Example of `./app/img` folder](https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images)
-- [Usage of image in `./app/img` folder](https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11)
+- [Example of `./src/img` folder](https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images)
+- [Usage of image in `./src/img` folder](https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11)
 
 ### Further Readings
 
