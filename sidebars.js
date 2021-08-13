@@ -6,6 +6,7 @@ module.exports = {
       "packaging",
       "adding-assets",
       "adding-dependencies",
+      "native-modules",
       "styling",
     ],
     Testing: ["component-tests", "ci"],
