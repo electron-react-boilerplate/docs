@@ -40,7 +40,7 @@ module.exports = {
           href: "https://opencollective.com/electron-react-boilerplate-594",
           label: "Donate",
         },
-        { blog: true, label: "Blog" },
+        { to: "blog", label: "Blog" },
       ],
     },
     footer: {
