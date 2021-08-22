@@ -91,3 +91,11 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 [**A tool to build & flash ExpressLRS RC Link firmware**](https://github.com/ExpressLRS/ExpressLRS-Configurator)
 
 ![ExpressLRS Configurator](/img/app-showcase/expresslrs-configurator.jpg)
+
+## Soundboard (Open Source)
+
+[Link](https://github.com/Glecun/soundboard)
+
+[**A simple soundboard desktop app (like EXP Soundboard).**](https://github.com/Glecun/soundboard)
+
+![Soundboard](/img/app-showcase/soundboard.gif)
