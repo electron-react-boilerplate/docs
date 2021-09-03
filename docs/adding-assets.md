@@ -14,7 +14,7 @@ Out of the box, ERB supports the following assets:
 
 | Asset  |  Supported Extensions  |
 | ------ | :--------------------: |
-| Images | `.jpg`, `.png`, `.jpg` |
+| Images | `.jpg`, `.png`, `.jpeg` |
 | Fonts  | `.svg`, `.ttf`, `.eot` |
 
 ```js
