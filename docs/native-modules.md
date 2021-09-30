@@ -14,7 +14,7 @@ Native node modules are node dependencies that are written in C++, C, or Rust. N
 
 ## Native Modules in electron-react-boilerplate
 
-Native modules in electron-react-boilerplate have special requirements and are thus handled differently than regular modules. Native modules are problematic when bundled with webpack and so electron-react-boilerplate avoids bundling them -- intead they are treated as [webpack externals](https://webpack.js.org/configuration/externals/). Native modules in electron-react-boilerplate are installed to the `./build/app/node_modules` directory and are copied into your electron app before it is packaged. This allows root dependencies in `./node_modules` (such as webpack, babel, and react) to not be packaged with your app, which significantly app bloat.
+Native modules in electron-react-boilerplate have special requirements and are thus handled differently than regular modules. Native modules are problematic when bundled with webpack and so electron-react-boilerplate avoids bundling them -- intead they are treated as [webpack externals](https://webpack.js.org/configuration/externals/). Native modules in electron-react-boilerplate are installed to the `./release/app/node_modules` directory and are copied into your electron app before it is packaged. This allows root dependencies in `./node_modules` (such as webpack, babel, and react) to not be packaged with your app, which significantly app bloat.
 
 ## Main Process Native Modules
 
