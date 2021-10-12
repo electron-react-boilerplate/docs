@@ -57,6 +57,7 @@ apm install editorconfig linter linter-eslint language-babel atom-typescript
 
 - [Editorconfig](http://editorconfig.org/#download)
 - [ESLint](http://eslint.org/docs/user-guide/integrations#editors)
+- [vim](https://github.com/MaxMEllon/vim-jsx-pretty)
 
 </TabItem>
 </Tabs>
