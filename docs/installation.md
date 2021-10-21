@@ -6,9 +6,7 @@ sidebar_label: Installation
 
 ```bash
 # Clone the boilerplate:
-git clone --depth=1 \
-  https://github.com/electron-react-boilerplate/electron-react-boilerplate \
-  your-project-name
+git clone https://github.com/electron-react-boilerplate/electron-react-boilerplate your-project-name
 
 cd your-project-name
 
