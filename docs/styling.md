@@ -4,24 +4,20 @@ title: Styling
 sidebar_label: Styling
 ---
 
-## CSS Modules
+Electron React Boilerplate supports CSS, SCSS, CSS and modules out of the box.
 
-This boilerplate is configured to use [css-modules](https://github.com/css-modules/css-modules) out of the box.
+## CSS
 
-All `.css` file extensions will use css-modules unless it has `.global.css`.
+To import css you can import it like a regular module:
 
-If you need global styles, stylesheets with `.global.css` will not go through the
-css-modules loader. e.g. `app.global.css`
-
-If you want to import global css libraries (like `bootstrap`), you can just write the following code in `.global.css`:
-
-```css
-@import "~bootstrap/dist/css/bootstrap.css";
+```ts
+import "./syle.css";
+// ...
 ```
 
-## Importing CSS
+### Importing CSS
 
-Say, you want to import css file from font-awesome module. Use following syntax
+Say you want to import css file from font-awesome module. Use following syntax:
 
 ```css
 @import "~font-awesome/css/font-awesome.css";
@@ -29,7 +25,7 @@ Say, you want to import css file from font-awesome module. Use following syntax
 
 Note the tilde `~` placed before module name.
 
-Similar syntax is used for SCSS too.
+Similar syntax is used for SASS too.
 
 **Examples**
 
@@ -39,6 +35,31 @@ Similar syntax is used for SCSS too.
 
 - [Cannot import CSS? #1087](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1087)
 - [Imported (not global) css is not working. #1076](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1076)
+
+The import css from all your modules will be concatenated into a single css file that will be injected into the header at build time.
+
+## CSS Modules
+
+CSS modules allow you to scope styles. Files must be end with `*.module.{css,sass,scss}` if they are to be recognized as a css module. Here is an example:
+
+```ts
+import styles from "./Button.module.css";
+
+const Button = () => <button className={style.myButton} />;
+```
+
+Read more about css modules here:
+
+- [why css modules?](https://css-tricks.com/css-modules-part-1-need/)
+
+## SASS
+
+Importing SASS is identical except for the extension:
+
+```ts
+import styles from "./style.scss";
+// ...
+```
 
 ## Tailwind Integration
 
@@ -50,7 +71,8 @@ If you **do not want to customize tailwind**, you can simply run `yarn add tailw
 
 ```
 @import '~tailwindcss';
-``` 
+```
+
 That should be enough to apply default tailwind styles. You use the `~` in the beginning to tell ERB to look in the node_modules as per the instructions found here: [https://electron-react-boilerplate.js.org/docs/styling](https://electron-react-boilerplate.js.org/docs/styling) .
 
 ---
@@ -63,7 +85,7 @@ If you **do want to customize tailwind**, install the necessary dependencies:
 yarn add --dev tailwindcss postcss postcss-loader autoprefixer
 ```
 
-2. Add the following snippet after the `css-loader` entry in the first test for global css files ( /\.global\.css$/ ) in **webpack.config.renderer.dev.babel.js** and also after `sass-loader` entry in **webpack.config.renderer.prod.babel.js** (for packaging):
+2. Add the following snippet after the `css-loader` entry in the first test for global css files ( /\.global\.css\$/ ) in **webpack.config.renderer.dev.babel.js** and also after `sass-loader` entry in **webpack.config.renderer.prod.babel.js** (for packaging):
 
 ```js title="webpack.config.renderer.dev.babel.js, webpack.config.renderer.prod.babel.js"
 {
@@ -85,8 +107,8 @@ yarn add --dev tailwindcss postcss postcss-loader autoprefixer
 3. Create **postcss.config.js** in the **.erb/configs** folder with the following config:
 
 ```ts title=".erb/configs/postcss.config.js"
-const tailwindcss = require('tailwindcss');
-const autoprefixer = require('autoprefixer');
+const tailwindcss = require("tailwindcss");
+const autoprefixer = require("autoprefixer");
 
 module.exports = {
   plugins: [tailwindcss, autoprefixer],
@@ -104,7 +126,7 @@ module.exports = {
 Create a **tailwind.config.js** file in the **root folder of your project** with the following config:
 
 ```ts title="tailwind.config.js"
-import colors from 'tailwindcss/colors';
+import colors from "tailwindcss/colors";
 
 module.exports = {
   purge: [],
