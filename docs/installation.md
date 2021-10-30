@@ -12,8 +12,8 @@ git clone --depth=1 \
 
 cd your-project-name
 
-# Install dependencies with yarn:
-yarn
+# Install dependencies:
+npm install
 ```
 
 :::tip

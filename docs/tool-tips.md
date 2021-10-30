@@ -79,11 +79,3 @@ This would turn off flow-typed errors for the module.
 
 - [Flow rasies "Required module not found" error #1024](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1024)
 - [flow-typed directory](https://github.com/electron-react-boilerplate/electron-react-boilerplate/tree/master/flow-typed)
-
-## Skip building the DLL immediately after install
-
-See our [FAQ](faq)
-
-### Further Readings:
-
-- [Any way to use 'yarn add' without immediately rebuilding the DLL? #1034](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1034)

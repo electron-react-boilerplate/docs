@@ -18,17 +18,25 @@
     "@docusaurus/core": "^2.0.0-beta.8",
     "@docusaurus/preset-classic": "^2.0.0-beta.8",
     "classnames": "^2.3.1",
+    "eslint-config-bliss-typescript": "^6.0.0-0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "7.x.x",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-config-bliss": "^5.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-compat": "^3.13.0",
     "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1"
   },
   "eslintConfig": {
@@ -37,6 +45,7 @@
       "bliss"
     ],
     "rules": {
+      "jest/no-deprecated-functions": "off",
       "class-methods-use-this": "off",
       "import/no-dynamic-require": "off",
       "import/no-extraneous-dependencies": "off",
@@ -73,7 +82,7 @@
     ]
   },
   "lint-staged": {
-    "*.{js,ts,tsx,json}": [
+    "*.{js,ts,tsx}": [
       "prettier --write --ignore-path .eslintignore",
       "eslint --cache --fix"
     ]

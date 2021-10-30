@@ -25,14 +25,12 @@ module.exports = {
         { to: "docs/roadmap", label: "Roadmap", position: "left" },
         {
           position: "left",
-          href:
-            "http://github.com/electron-react-boilerplate/examples#table-of-contents",
+          href: "http://github.com/electron-react-boilerplate/examples#table-of-contents",
           label: "Examples",
         },
         {
           position: "left",
-          href:
-            "http://github.com/electron-react-boilerplate/electron-react-boilerplate",
+          href: "http://github.com/electron-react-boilerplate/electron-react-boilerplate",
           label: "GitHub",
         },
         {
@@ -80,8 +78,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              to:
-                "https://github.com/electron-react-boilerplate/electron-react-boilerplate",
+              to: "https://github.com/electron-react-boilerplate/electron-react-boilerplate",
             },
           ],
         },
@@ -102,8 +99,7 @@ module.exports = {
   },
   scripts: [
     {
-      src:
-        "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
+      src: "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
       async: true,
     },
     "/js/ads.js",
