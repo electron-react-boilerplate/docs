@@ -34,7 +34,7 @@ If flow definitions for a module are missing, flow will raise `"Required module 
 For example, clone this repository. Add +material-ui+ to `./package.json`.
 
 ```bash
-yarn add material-ui
+npm install material-ui
 ```
 
 Then add this line to `Counter.js`

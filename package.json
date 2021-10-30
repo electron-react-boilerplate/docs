@@ -11,7 +11,7 @@
     "lint-prose": "cp .proselintrc ~/ && proselint docs blog",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "test": "yarn lint && yarn lint-prose && yarn build",
+    "test": "npm run lint && npm run lint-prose && npm run build",
     "prepare": "husky install"
   },
   "dependencies": {

@@ -7,7 +7,7 @@ sidebar_label: Packaging
 To package apps for the local platform:
 
 ```bash
-yarn package
+npm run package
 ```
 
 The packaged app will be inside the `release` directory.
@@ -19,28 +19,28 @@ First, refer to [Multi Platform Build](https://www.electron.build/multi-platform
 Then,
 
 ```bash
-yarn package-all
+npm run package-all
 ```
 
 To package apps with options:
 
 ```bash
-yarn package --[option]
-# Example: yarn package --mac
+npm run package --[option]
+# Example: npm run package --mac
 ```
 
 > You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
 
 ```bash
-yarn cross-env DEBUG_PROD=true yarn package
+npm run cross-env DEBUG_PROD=true npm run package
 ```
 
 ## Running the Production Version of Your App
 
-Sometimes it is useful to run the production version of your app locally. This can be done by running `yarn start`:
+Sometimes it is useful to run the production version of your app locally. This can be done by running `npm start`:
 
 ```bash
-yarn start
+npm start
 ```
 
 ## Debugging the Production Build
@@ -48,6 +48,6 @@ yarn start
 If your production app isn't working as expected, you can use the `DEBUG_PROD` env variable to build the necessary files and then start the app. It isn't necessary to package the app:
 
 ```bash
-yarn cross-env DEBUG_PROD=true yarn build
-yarn cross-env DEBUG_PROD=true yarn start
+npm run cross-env DEBUG_PROD=true npm run build
+npm run cross-env DEBUG_PROD=true npm start
 ```

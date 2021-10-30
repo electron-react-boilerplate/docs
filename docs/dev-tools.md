@@ -25,8 +25,8 @@ You can find the tabs on Chrome DevTools.
 If you want to update extensions version, please set `UPGRADE_EXTENSIONS` env, just run:
 
 ```bash
-UPGRADE_EXTENSIONS=1 yarn start
+UPGRADE_EXTENSIONS=1 npm start
 
 # For Windows
-set UPGRADE_EXTENSIONS=1 && yarn start
+set UPGRADE_EXTENSIONS=1 && npm start
 ```

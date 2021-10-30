@@ -8,9 +8,9 @@ The website for [electron-react-boilerplate](https://github.com/electron-react-b
 
 ```sh
 # Install dependencies
-yarn
+npm install
 # Start the site
-yarn start
+npm start
 ```
 
 ## Project Stucture and Contributing

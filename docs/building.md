@@ -10,10 +10,10 @@ Webpack is one of the most crucial parts of ERB's infrastructure as with many ot
 
 Building a production version of your app will optimize the JS, CSS, and SASS of your application.
 
-To create a production build, run `yarn build`:
+To create a production build, run `npm run build`:
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## Inspecting Build Size
@@ -22,8 +22,8 @@ If you want to reduce the build size of your app, you can open a treemap of your
 
 ![treemap bundle example](/img/bundle-analyzer-example.png)
 
-To create a production build, run `OPEN_ANALYZER=true yarn build`:
+To create a production build, run `OPEN_ANALYZER=true npm run build`:
 
 ```bash
-OPEN_ANALYZER=true yarn build
+OPEN_ANALYZER=true npm run build
 ```

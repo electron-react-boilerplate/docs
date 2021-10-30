@@ -56,7 +56,7 @@ electron-react-boilerplate doesn't come with tailwind integration out of the box
 
 ### Without Custom Tailwind Config
 
-If you **do not want to customize tailwind**, you can simply run `yarn add tailwindcss`, then at the bottom of **App.global.css** add:
+If you **do not want to customize tailwind**, you can simply run `npm install tailwindcss`, then at the bottom of **App.global.css** add:
 
 ```
 @import '~tailwindcss';
@@ -71,7 +71,7 @@ That should be enough to apply default tailwind styles. You use the `~` in the b
 If you **do want to customize tailwind**, install the necessary dependencies:
 
 ```bash
-yarn add --dev tailwindcss postcss postcss-loader autoprefixer
+npm install --save-dev tailwindcss postcss postcss-loader autoprefixer
 ```
 
 2. Add the following snippet after the `css-loader` entry in the first test for global css files ( /\.global\.css\$/ ) in **webpack.config.renderer.dev.babel.js** and also after `sass-loader` entry in **webpack.config.renderer.prod.babel.js** (for packaging):

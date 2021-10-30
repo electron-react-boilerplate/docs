@@ -54,7 +54,6 @@ before_cache:
   - rm -rf $HOME/.cache/electron-builder/wine
 
 cache:
-  yarn: true
   directories:
     - node_modules
     - $(npm config get prefix)/lib/node_modules
@@ -65,7 +64,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX="g++-8"; fi
 
 install:
-  - yarn --ignore-engines
+  - npm ci
   # On Linux, initialize "virtual display". See before_script
   - |
     if [ "$TRAVIS_OS_NAME" == "linux" ]; then
@@ -87,12 +86,12 @@ before_script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sleep 3; fi
 
 script:
-  - yarn package-ci
-  - yarn lint
-  - yarn ts
-  - yarn test
-  - yarn build-e2e
-  - yarn test-e2e
+  - npm run package-ci
+  - npm run lint
+  - npm run ts
+  - npm test
+  - npm run build-e2e
+  - npm test-e2e
 ```
 
 </TabItem>
@@ -100,9 +99,6 @@ script:
 <TabItem value="azure">
 
 ```yml
-variables:
-  YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
-
 strategy:
   matrix:
     linux:
@@ -123,27 +119,18 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: $(nodeVersion)
-  # Cache yarn deps
-  - task: Cache@2
-    inputs:
-      key: 'yarn | "$(Agent.OS)" | yarn.lock'
-      restoreKeys: |
-        yarn | "$(Agent.OS)"
-        yarn
-      path: $(YARN_CACHE_FOLDER)
-    displayName: Cache Yarn packages
   # Start virtual framebuffer server
   - bash: |
       /usr/bin/Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
       echo ">>> Started xvfb"
     displayName: Start xvfb
     condition: and(succeeded(), eq(variables['Agent.OS'], 'Linux'))
-  # Install deps with yarn and run tests
-  - script: yarn --frozen-lockfile && yarn test-all
+  # Install deps and run tests
+  - script: npm ci && npm test-all
     env:
       DISPLAY: ":99.0"
   # Generate coverage report
-  - script: yarn test --coverage --coverageReporters=cobertura
+  - script: npm test --coverage --coverageReporters=cobertura
   # Publish coverage report
   - task: PublishCodeCoverageResults@1
     inputs:
@@ -177,21 +164,21 @@ jobs:
         with:
           node-version: 13
 
-      - name: yarn install
+      - name: npm install
         run: |
-          yarn install
+          npm install
 
-      - name: yarn test
+      - name: npm test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          yarn package-ci
-          yarn lint
-          yarn ts
+          npm run package-ci
+          npm run lint
+          npm run ts
 
 # Failing beacuse virtual framebuffer not installed
-#          yarn build-e2e
-#          yarn test-e2e
+#          npm run build-e2e
+#          npm test-e2e
 ```
 
 </TabItem>
@@ -209,7 +196,6 @@ environment:
     - nodejs_version: 13
 
 cache:
-  - '%LOCALAPPDATA%/Yarn'
   - node_modules
   - release/app/node_modules
   - '%USERPROFILE%\.electron'
@@ -228,15 +214,15 @@ clone_depth: 1
 install:
   - ps: Install-Product node $env:nodejs_version x64
   - set CI=true
-  - yarn
+  - npm ci
 
 test_script:
-  - yarn package-ci
-  - yarn lint
-  - yarn ts
-  - yarn test
-  - yarn build-e2e
-  - yarn test-e2e
+  - npm run package-ci
+  - npm run lint
+  - npm run ts
+  - npm test
+  - npm run build-e2e
+  - npm test-e2e
 
 ```
 
