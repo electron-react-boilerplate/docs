@@ -26,23 +26,23 @@ Loading remote content in the renderer process with node integration enabled is 
 
 Make the following changes to opt in to node integration:
 
-```diff title="webpack.config.renderer.prod.babel.js"
+```diff title="webpack.config.renderer.prod.ts"
 - target: ['web', 'electron-renderer'],
 + target: 'electron-renderer',
 ```
 
-```diff title="webpack.config.renderer.dev.babel.js"
+```diff title="webpack.config.renderer.dev.ts"
 - target: ['web', 'electron-renderer'],
 + target: 'electron-renderer',
 ```
 
-```diff title="webpack.config.renderer.prod.babel.js"
+```diff title="webpack.config.renderer.prod.ts"
 - library: {
 -  type: 'umd',
 - },
 ```
 
-```diff title="webpack.config.renderer.dev.babel.js"
+```diff title="webpack.config.renderer.dev.ts"
 - library: {
 -  type: 'umd',
 - },

@@ -56,13 +56,13 @@ electron-react-boilerplate doesn't come with tailwind integration out of the box
 
 ### Without Custom Tailwind Config
 
-If you **do not want to customize tailwind**, you can simply run `npm install tailwindcss`, then at the bottom of **App.global.css** add:
+See this [full working example of electron-react-boilerplate with tailwind](https://github.com/amilajack/erb-tailwind-example) for reference.
 
-```
-@import '~tailwindcss';
-```
+If you **do not want to customize tailwind**, you can simply run `npm install tailwindcss` and import it:
 
-That should be enough to apply default tailwind styles. You use the `~` in the beginning to tell ERB to look in the node_modules as per the instructions found here: [https://electron-react-boilerplate.js.org/docs/styling](https://electron-react-boilerplate.js.org/docs/styling) .
+```ts title="src/renderer/App.tsx"
+import "tailwindcss/tailwind.css";
+```
 
 ---
 
@@ -74,22 +74,26 @@ If you **do want to customize tailwind**, install the necessary dependencies:
 npm install --save-dev tailwindcss postcss postcss-loader autoprefixer
 ```
 
-2. Add the following snippet after the `css-loader` entry in the first test for global css files ( /\.global\.css\$/ ) in **webpack.config.renderer.dev.babel.js** and also after `sass-loader` entry in **webpack.config.renderer.prod.babel.js** (for packaging):
+2. Add the following snippet after the `sass-loader` entry in your webpack configs:
 
-```js title="webpack.config.renderer.dev.babel.js, webpack.config.renderer.prod.babel.js"
+```js title="webpack.config.renderer.dev.ts, webpack.config.renderer.prod.ts"
 {
-    // ...
-
-    loader: 'postcss-loader',
-    options: {
-      postcssOptions: {
-        plugins:
-          [
-            require('tailwindcss'),
-            require('autoprefixer'),
-          ]
+  // ...
+  module: {
+    rules: {
+      // style, css, sass loaders...
+      loader: 'postcss-loader',
+      options: {
+        postcssOptions: {
+          plugins:
+            [
+              require('tailwindcss'),
+              require('autoprefixer'),
+            ]
+        }
       }
     }
+  }
 }
 ```
 
@@ -104,12 +108,10 @@ module.exports = {
 };
 ```
 
-4. Add the following at the end of your **App.global.css** file:
+4. Import it:
 
-```scss title="App.global.css"
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+```ts title="src/renderer/App.tsx"
+import "tailwindcss/tailwind.css";
 ```
 
 Create a **tailwind.config.js** file in the **root folder of your project** with the following config:
