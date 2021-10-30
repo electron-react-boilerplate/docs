@@ -25,17 +25,6 @@ Say you want to import css file from font-awesome module. Use following syntax:
 
 Note the tilde `~` placed before module name.
 
-Similar syntax is used for SASS too.
-
-**Examples**
-
-- [Falcon Client](https://github.com/falcon-client/falcon/blob/master/app/app.global.css#L1)
-
-**Further Readings**
-
-- [Cannot import CSS? #1087](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1087)
-- [Imported (not global) css is not working. #1076](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1076)
-
 The import css from all your modules will be concatenated into a single css file that will be injected into the header at build time.
 
 ## CSS Modules
