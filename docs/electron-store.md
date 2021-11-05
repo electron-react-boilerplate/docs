@@ -14,7 +14,7 @@ npm install electron-store
 
 ### 2. Electron IPC Configuration
 
-Electron strongly recommends disabling node integration in the renderer process, which is now the default. IPC is required to securely pass values between the main and renderer processes. You will have to add IPC event handlers which set and get `electron-store` through the the `preload` script.
+Electron strongly recommends disabling node integration in the renderer process, which is now the default. IPC is required to securely pass values between the main and renderer processes. You will have to add IPC event handlers which set and get `electron-store` through the `preload` script.
 
 Add the following event handlers to your preload script:
 
