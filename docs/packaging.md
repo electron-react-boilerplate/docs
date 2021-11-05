@@ -32,7 +32,7 @@ npm run package --[option]
 > You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
 
 ```bash
-npm run cross-env DEBUG_PROD=true npm run package
+cross-env DEBUG_PROD=true npm run package
 ```
 
 ## Running the Production Version of Your App
@@ -48,6 +48,6 @@ npm start
 If your production app isn't working as expected, you can use the `DEBUG_PROD` env variable to build the necessary files and then start the app. It isn't necessary to package the app:
 
 ```bash
-npm run cross-env DEBUG_PROD=true npm run build
-npm run cross-env DEBUG_PROD=true npm start
+cross-env DEBUG_PROD=true npm run build
+cross-env DEBUG_PROD=true npm start
 ```

@@ -23,5 +23,6 @@ This to be a list of solutions for installation issues with this project:
 ### Debugging Release Builds
 
 ```bash
-cross-env DEBUG_PROD=true npm run build && npm run cross-env DEBUG_PROD=true npm start
+cross-env DEBUG_PROD=true npm run build
+cross-env DEBUG_PROD=true npm start
 ```
