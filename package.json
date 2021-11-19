@@ -15,29 +15,29 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.8",
-    "@docusaurus/preset-classic": "^2.0.0-beta.8",
+    "@docusaurus/core": "^2.0.0-beta.9",
+    "@docusaurus/preset-classic": "^2.0.0-beta.9",
     "classnames": "^2.3.1",
-    "eslint-config-bliss-typescript": "^6.0.0-0",
+    "eslint-config-bliss-typescript": "^6.0.0",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
+    "lint-staged": "^12.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "7.x.x",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^14.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "8.x.x",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-airbnb-typescript": "^16.0.0",
     "eslint-config-bliss": "^5.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-compat": "^3.13.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.26.1"
+    "eslint-plugin-react": "^7.27.1"
   },
   "eslintConfig": {
     "extends": [
