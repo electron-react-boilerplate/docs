@@ -78,4 +78,4 @@ This would turn off flow-typed errors for the module.
 ### Further Readings:
 
 - [Flow rasies "Required module not found" error #1024](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/1024)
-- [flow-typed directory](https://github.com/electron-react-boilerplate/electron-react-boilerplate/tree/master/flow-typed)
+- [flow-typed directory](https://github.com/electron-react-boilerplate/electron-react-boilerplate/tree/main/flow-typed)

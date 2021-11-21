@@ -1,6 +1,6 @@
 # site
 
-[![Build Status](https://travis-ci.org/electron-react-boilerplate/site.svg?branch=master)](https://travis-ci.org/electron-react-boilerplate/site)
+[![Test](https://github.com/electron-react-boilerplate/site/actions/workflows/test.yml/badge.svg)](https://github.com/electron-react-boilerplate/site/actions/workflows/test.yml)
 
 The website for [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
 

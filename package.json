@@ -1,7 +1,7 @@
 {
   "name": "@electron-react-boilerplate/site",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "docusaurus build",
@@ -9,64 +9,15 @@
     "docusaurus": "docusaurus",
     "lint": "eslint .",
     "lint-prose": "cp .proselintrc ~/ && proselint docs blog",
+    "prepare": "husky install",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "test": "npm run lint && npm run lint-prose && npm run build",
-    "prepare": "husky install"
+    "test": "npm run lint-prose && npm run build"
   },
-  "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.9",
-    "@docusaurus/preset-classic": "^2.0.0-beta.9",
-    "classnames": "^2.3.1",
-    "eslint-config-bliss-typescript": "^6.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.0.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "8.x.x",
-    "eslint-config-airbnb": "^19.0.0",
-    "eslint-config-airbnb-typescript": "^16.0.0",
-    "eslint-config-bliss": "^5.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-compat": "^4.0.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jest": "^25.2.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1"
-  },
-  "eslintConfig": {
-    "extends": [
-      "airbnb",
-      "bliss"
-    ],
-    "rules": {
-      "jest/no-deprecated-functions": "off",
-      "class-methods-use-this": "off",
-      "import/no-dynamic-require": "off",
-      "import/no-extraneous-dependencies": "off",
-      "import/no-unresolved": "off",
-      "jsx-a11y/anchor-is-valid": "off",
-      "jsx-a11y/iframe-has-title": "off",
-      "react/jsx-filename-extension": "off",
-      "no-unused-vars": "off",
-      "react/jsx-props-no-spreading": "off",
-      "react/destructuring-assignment": "off",
-      "react/jsx-one-expression-per-line": "off",
-      "react/jsx-no-target-blank": "off",
-      "react/no-multi-comp": "off",
-      "react/no-unescaped-entities": "off",
-      "react/prefer-stateless-function": "off",
-      "react/prop-types": "off"
-    }
-  },
-  "renovate": {
-    "extends": [
-      "bliss"
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write --ignore-path .eslintignore",
+      "eslint --cache --fix"
     ]
   },
   "browserslist": {
@@ -81,10 +32,39 @@
       "last 1 safari version"
     ]
   },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "prettier --write --ignore-path .eslintignore",
-      "eslint --cache --fix"
+  "eslintConfig": {
+    "extends": [
+      "bliss"
     ]
-  }
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.9",
+    "@docusaurus/preset-classic": "^2.0.0-beta.9",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "classnames": "^2.3.1",
+    "eslint": "8.x.x",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-airbnb-typescript": "^16.0.0",
+    "eslint-config-bliss": "^6.0.4",
+    "eslint-config-bliss-typescript": "^6.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "renovate": {
+    "extends": [
+      "bliss"
+    ]
+  },
+  "babel": {}
 }
