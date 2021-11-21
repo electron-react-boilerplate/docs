@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://electron-react-boilerplate.js.org/blog</id>
+    <title>Electron React Boilerplate Blog</title>
+    <updated>2018-10-22T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://electron-react-boilerplate.js.org/blog"/>
+    <subtitle>Electron React Boilerplate Blog</subtitle>
+    <icon>https://electron-react-boilerplate.js.org/logo/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>Hello World</id>
+        <link href="https://electron-react-boilerplate.js.org/blog/2018/10/22/hello-world"/>
+        <updated>2018-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project]]></summary>
+        <content type="html"><![CDATA[<p>After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project</p>]]></content>
+        <author>
+            <name>Amila Welihinda</name>
+        </author>
+    </entry>
+</feed>

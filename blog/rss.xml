@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Electron React Boilerplate Blog</title>
+        <link>https://electron-react-boilerplate.js.org/blog</link>
+        <description>Electron React Boilerplate Blog</description>
+        <lastBuildDate>Mon, 22 Oct 2018 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://electron-react-boilerplate.js.org/blog/2018/10/22/hello-world</link>
+            <guid>Hello World</guid>
+            <pubDate>Mon, 22 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project]]></description>
+            <content:encoded><![CDATA[<p>After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
