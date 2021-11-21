@@ -6,6 +6,12 @@ sidebar_label: App Showcase
 
 Here are some awesome apps that are based on Electron React Boilerplate!
 
+## Command E
+
+Instantly find everything you need to work faster, on your desktop and across your cloud apps, for free.
+
+[Link](https://getcommande.com)
+
 ## Popcorn Time Desktop (Open Source)
 
 [Link](https://github.com/amilajack/popcorn-time-desktop)
