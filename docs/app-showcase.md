@@ -8,6 +8,8 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 ## Command E
 
+![command e](/img/app-showcase/cmde.png)
+
 Instantly find everything you need to work faster, on your desktop and across your cloud apps, for free.
 
 [Link](https://getcommande.com)
