@@ -8,6 +8,7 @@ module.exports = {
       "adding-dependencies",
       "native-modules",
       "styling",
+      "auto-update",
     ],
     Testing: ["component-tests", "ci"],
     Advanced: ["electron-store", "internals", "tool-tips", "dev-tools", "faq"],
