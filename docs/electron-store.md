@@ -41,11 +41,11 @@ Add event listeners in your main process:
 ```ts title="src/main/main.ts"
 import Store from "electron-store";
 
-let store = new Store();
+const store = new Store();
 
 // IPC listener
 ipcMain.on("electron-store-get", async (event, val) => {
-  store.get(val);
+  event.returnValue = store.get(val);
 });
 ipcMain.on("electron-store-set", async (event, key, val) => {
   store.set(key, val);
