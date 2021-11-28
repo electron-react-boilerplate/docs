@@ -76,4 +76,4 @@ After adding a new test to ERB, run `npm test -- -u`. This create a new snapshot
 
 ### Watching Tests
 
-Suppose you are making change to React components and you want to see if components have broken while you are making changes. Running `npm test -w` will run tests all the tests that are affected by the changes made to the React components.
+Suppose you are making change to React components and you want to see if components have broken while you are making changes. Running `npm test -- -w` will run tests all the tests that are affected by the changes made to the React components.
