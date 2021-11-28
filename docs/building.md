@@ -22,8 +22,8 @@ If you want to reduce the build size of your app, you can open a treemap of your
 
 ![treemap bundle example](/img/bundle-analyzer-example.png)
 
-To create a production build, run `OPEN_ANALYZER=true npm run build`:
+To create a production build:
 
 ```bash
-OPEN_ANALYZER=true npm run build
+ANALYZE=true npm run build
 ```
