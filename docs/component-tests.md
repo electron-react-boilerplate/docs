@@ -72,7 +72,7 @@ npm test
 
 Snapshot tests are probably one of the most powerful features of Jest. With them, you can easily capture the current state of an object and test against that state in future executions of the test. For more details on this, see Jest's [Snapshot Testing docs](https://jestjs.io/docs/en/snapshot-testing).
 
-After adding a new test to ERB, run `npm test -u`. This create a new snapshot if one does not exist already or it will update an existing one.
+After adding a new test to ERB, run `npm test -- -u`. This create a new snapshot if one does not exist already or it will update an existing one.
 
 ### Watching Tests
 
