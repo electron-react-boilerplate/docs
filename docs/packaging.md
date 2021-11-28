@@ -12,16 +12,6 @@ npm run package
 
 The packaged app will be inside the `release` directory.
 
-## Building to Multiple Platforms
-
-First, refer to [Multi Platform Build](https://www.electron.build/multi-platform-build) for dependencies.
-
-Then,
-
-```bash
-npm run package-all
-```
-
 To package apps with options:
 
 ```bash
