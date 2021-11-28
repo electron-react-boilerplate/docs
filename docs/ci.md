@@ -12,13 +12,13 @@ import TabItem from '@theme/TabItem';
 <Tabs
 defaultValue="travis"
 values={[
+{ label: 'GitHub Actions', value: 'gh-actions', },
 { label: 'Travis CI', value: 'travis', },
 { label: 'Azure Pipelines', value: 'azure', },
-{ label: 'GitHub Actions', value: 'gh-actions', },
 { label: 'AppVeyor', value: 'appveyor', },
 ]
 }>
-<TabItem value="travis">
+<TabItem value="gh-actions">
 
 ```yml
 matrix:
