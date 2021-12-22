@@ -55,3 +55,10 @@ Make the following changes to opt in to node integration:
 -   preload: path.join(__dirname, 'preload.js'),
   }
 ```
+
+```diff title="webpack.config.main.prod.ts"
+  entry: {
+    main: path.join(webpackPaths.srcMainPath, 'main.ts'),
+-   preload: path.join(webpackPaths.srcMainPath, 'preload.js'),
+  },
+```
