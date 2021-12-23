@@ -10,7 +10,7 @@
         <item>
             <title><![CDATA[Hello World]]></title>
             <link>https://electron-react-boilerplate.js.org/blog/2018/10/22/hello-world</link>
-            <guid>Hello World</guid>
+            <guid>/2018/10/22/hello-world</guid>
             <pubDate>Mon, 22 Oct 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project]]></description>
             <content:encoded><![CDATA[<p>After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project</p>]]></content:encoded>

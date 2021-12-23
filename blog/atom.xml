@@ -9,7 +9,7 @@
     <icon>https://electron-react-boilerplate.js.org/logo/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>Hello World</id>
+        <id>/2018/10/22/hello-world</id>
         <link href="https://electron-react-boilerplate.js.org/blog/2018/10/22/hello-world"/>
         <updated>2018-10-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[After a couple years of development, electron-react-boilerplate finally has a website! Subscribe to our blog for updates on the progress of the project]]></summary>
