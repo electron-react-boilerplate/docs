@@ -18,7 +18,7 @@ Here's some examples of E2E tests:
 
 Here's an example of an E2E test:
 
-```js
+```ts
 test("e2e", async (t) => {
   await t.expect(getPageTitle()).eql("Hello Electron React!");
 });

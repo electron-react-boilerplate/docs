@@ -17,7 +17,7 @@ Out of the box, ERB supports the following assets:
 | Images | `.jpg`, `.png`, `.jpg` |
 | Fonts  | `.svg`, `.ttf`, `.eot` |
 
-```js
+```tsx
 import catImage from "./cat.jpg";
 
 function CatComponent() {
@@ -29,13 +29,13 @@ function CatComponent() {
 
 In the context of ERB, run-time assets are separate files that are included in the packaged application and used through file paths. You will need to include their locations in `package.json['build']['files']`. This is so that [electron-builder's configuration](https://www.electron.build/configuration/contents#files) knows to include them when packaging.
 
-(Note that these locations are relative to the `src/` directory)
+(Note that these locations are relative to the `release/app` directory)
 
 ```jsonc
 "build": {
     // ...
     "files": [
-      "assets/"
+      "my-files/"
       // ...
     ],
 }
@@ -43,7 +43,7 @@ In the context of ERB, run-time assets are separate files that are included in t
 
 For example, you can include Python within your electron app and call it at run-time to print `Hello World from Python`.
 
-```js
+```ts
 const pythonBinary = path.join(__dirname, "assets", "python");
 const pythonScript = 'print("Hello World from Python")';
 exec(`echo '${pythonScript}' | ${pythonBinary}`, (error, stdout) => {
