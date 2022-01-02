@@ -14,9 +14,8 @@ Out of the box, ERB supports the following assets:
 
 | Asset  |  Supported Extensions  |
 | ------ | :--------------------: |
-| Images | `.jpg`, `.png`, `.jpg` |
-| Fonts  | `.svg`, `.ttf`, `.eot` |
-
+| Images | `.png`, `.svg`, `.jpg`, `jpeg`, `gif` |
+| Fonts  | `.svg`, `woff`, `woff2`, `eot`, `.ttf`, `.otf` |
 ```tsx
 import catImage from "./cat.jpg";
 
