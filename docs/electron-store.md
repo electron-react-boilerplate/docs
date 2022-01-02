@@ -19,15 +19,15 @@ Electron strongly recommends disabling node integration in the renderer process,
 Add the following event handlers to your preload script:
 
 ```ts title="src/main/preload.js"
-const { contextBridge, ipcRenderer } = require("electron");
+const { contextBridge, ipcRenderer } = require('electron');
 
-contextBridge.exposeInMainWorld("electron", {
+contextBridge.exposeInMainWorld('electron', {
   store: {
     get(val) {
-      return ipcRenderer.sendSync("electron-store-get", val);
+      return ipcRenderer.sendSync('electron-store-get', val);
     },
     set(property, val) {
-      ipcRenderer.send("electron-store-set", property, val);
+      ipcRenderer.send('electron-store-set', property, val);
     },
     // Other method you want to add like has(), reset(), etc.
   },
@@ -39,15 +39,15 @@ contextBridge.exposeInMainWorld("electron", {
 Add event listeners in your main process:
 
 ```ts title="src/main/main.ts"
-import Store from "electron-store";
+import Store from 'electron-store';
 
 const store = new Store();
 
 // IPC listener
-ipcMain.on("electron-store-get", async (event, val) => {
+ipcMain.on('electron-store-get', async (event, val) => {
   event.returnValue = store.get(val);
 });
-ipcMain.on("electron-store-set", async (event, key, val) => {
+ipcMain.on('electron-store-set', async (event, key, val) => {
   store.set(key, val);
 });
 ```
@@ -80,9 +80,9 @@ Now, you can set and get `electron-store` in your renderer processes:
 // ...
 <button
   onClick={() => {
-    window.electron.store.set("foo", "bar");
+    window.electron.store.set('foo', 'bar');
     // or
-    console.log(window.electron.store.get("foo"));
+    console.log(window.electron.store.get('foo'));
   }}
 >
   Click Me!
