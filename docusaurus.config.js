@@ -61,7 +61,7 @@ module.exports = {
             },
             {
               label: "Community Chat",
-              to: "https://spectrum.chat/electron-react-blpt",
+              to: "https://github.com/electron-react-boilerplate/electron-react-boilerplate/discussions",
             },
             {
               label: "Twitter",
