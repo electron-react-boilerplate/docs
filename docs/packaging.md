@@ -16,28 +16,13 @@ To package apps with options:
 
 ```bash
 npm run package --[option]
-# Example: npm run package --mac
+# Example: npm run package -- --mac
 ```
 
-> You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
+### Debugging Production Builds
+
+You can debug your production build with devtools by simply setting the `DEBUG_PROD` env variable
 
 ```bash
-cross-env DEBUG_PROD=true npm run package
-```
-
-## Running the Production Version of Your App
-
-Sometimes it is useful to run the production version of your app locally. This can be done by running `npm start`:
-
-```bash
-npm start
-```
-
-## Debugging the Production Build
-
-If your production app isn't working as expected, you can use the `DEBUG_PROD` env variable to build the necessary files and then start the app. It isn't necessary to package the app:
-
-```bash
-cross-env DEBUG_PROD=true npm run build
-cross-env DEBUG_PROD=true npm start
+npx cross-env DEBUG_PROD=true npm run package
 ```
