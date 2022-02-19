@@ -44,7 +44,7 @@
     "@typescript-eslint/parser": "^5.8.0",
     "classnames": "^2.3.1",
     "eslint": "8.x.x",
-    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-bliss": "^6.0.4",
     "eslint-config-bliss-typescript": "^6.0.1",
