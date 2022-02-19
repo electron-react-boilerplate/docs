@@ -10,7 +10,7 @@ Here are some awesome apps that are based on Electron React Boilerplate!
 
 ![command e](/img/app-showcase/cmde.png)
 
-Instantly find everything you need to work faster, on your desktop and across your cloud apps, for free.
+Instantly find everything you need to work faster, on your desktop and across your cloud apps.
 
 [Link](https://getcommande.com)
 
@@ -30,13 +30,13 @@ Instantly find everything you need to work faster, on your desktop and across yo
 
 ![recollector](/img/app-showcase/recollector.png)
 
-## Upnotes 
+## Upnotes
+
 [Link](https://upnotes.io)
 
 [**A markdown first notes app for coders**](https://upnotes.io)
 
 ![image](https://user-images.githubusercontent.com/5221843/143382567-be2c94f9-0067-4f3d-90ce-3b54b2591dd1.png)
-
 
 ## Falcon (Open Source)
 
