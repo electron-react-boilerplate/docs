@@ -120,7 +120,7 @@ Create a **tailwind.config.js** file in the **root folder of your project** with
 import colors from "tailwindcss/colors";
 
 module.exports = {
-  purge: [],
+  content: ['./src/renderer/**/*.{js,jsx,ts,tsx,ejs}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
