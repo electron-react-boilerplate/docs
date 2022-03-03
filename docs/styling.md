@@ -11,7 +11,7 @@ Electron React Boilerplate supports CSS, SCSS, CSS and modules out of the box.
 To import css you can import it like a regular module:
 
 ```ts
-import "./syle.css";
+import "./style.css";
 // ...
 ```
 
