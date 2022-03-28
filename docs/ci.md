@@ -86,12 +86,11 @@ before_script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sleep 3; fi
 
 script:
-  - npm run package-ci
+  - npm run package
   - npm run lint
-  - npm run ts
   - npm test
-  - npm run build-e2e
   - npm test-e2e
+
 ```
 
 </TabItem>
@@ -217,11 +216,9 @@ install:
   - npm ci
 
 test_script:
-  - npm run package-ci
+  - npm run package
   - npm run lint
-  - npm run ts
   - npm test
-  - npm run build-e2e
   - npm test-e2e
 
 ```
