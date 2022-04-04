@@ -18,7 +18,7 @@ values={[
 { label: 'AppVeyor', value: 'appveyor', },
 ]
 }>
-<TabItem value="gh-actions">
+<TabItem value="tavis">
 
 ```yml
 matrix:
