@@ -38,8 +38,10 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.17",
-    "@docusaurus/preset-classic": "^2.0.0-beta.17",
+    "@docusaurus/core": "^2.0.0-beta.18",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.18",
+    "@docusaurus/plugin-google-gtag": "^2.0.0-beta.18",
+    "@docusaurus/preset-classic": "^2.0.0-beta.18",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "classnames": "^2.3.1",

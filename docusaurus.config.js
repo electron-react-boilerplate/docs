@@ -89,12 +89,7 @@ module.exports = {
       // "Search only api key". Safe to keep this public
       apiKey: "7989826be21123972626ebaacdc71b1a",
       indexName: "electron-react-boilerplate",
-    },
-    googleAnalytics: {
-      trackingID: "UA-127797742-1",
-    },
-    gtag: {
-      trackingID: "UA-127797742-1",
+      appId: "6C92C9G1ZT",
     },
   },
   scripts: [
@@ -115,6 +110,12 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-127797742-1",
+        },
+        gtag: {
+          trackingID: "UA-127797742-1",
         },
       },
     ],
