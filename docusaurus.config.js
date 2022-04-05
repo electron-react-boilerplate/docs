@@ -6,6 +6,7 @@ module.exports = {
   favicon: "logo/logo.png",
   organizationName: "electron-react-boilerplate",
   projectName: "site",
+  trailingSlash: true,
   themeConfig: {
     colorMode: {
       defaultMode: "light",
