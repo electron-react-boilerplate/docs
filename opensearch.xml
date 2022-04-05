@@ -5,7 +5,7 @@
   <Description>Search Electron React Boilerplate</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://electron-react-boilerplate.js.org/logo/logo.png</Image>
-  <Url type="text/html" method="get" template="https://electron-react-boilerplate.js.org//search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://electron-react-boilerplate.js.org//opensearch.xml" />
-  <moz:SearchForm>https://electron-react-boilerplate.js.org//</moz:SearchForm>
+  <Url type="text/html" method="get" template="https://electron-react-boilerplate.js.org/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://electron-react-boilerplate.js.org/opensearch.xml" />
+  <moz:SearchForm>https://electron-react-boilerplate.js.org/</moz:SearchForm>
 </OpenSearchDescription>
