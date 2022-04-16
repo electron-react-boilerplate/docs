@@ -15,7 +15,7 @@ The packaged app will be inside the `release` directory.
 To package apps with options:
 
 ```bash
-npm run package --[option]
+npm run package -- --[option]
 # Example: npm run package -- --mac
 ```
 
