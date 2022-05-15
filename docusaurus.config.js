@@ -91,6 +91,7 @@ module.exports = {
       apiKey: "7989826be21123972626ebaacdc71b1a",
       indexName: "electron-react-boilerplate",
       appId: "6C92C9G1ZT",
+      contextualSearch: true,
     },
   },
   scripts: [
