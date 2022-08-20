@@ -117,7 +117,7 @@ import "tailwindcss/tailwind.css";
 Create a **tailwind.config.js** file in the **root folder of your project** with the following config:
 
 ```ts title="tailwind.config.js"
-import colors from "tailwindcss/colors";
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: ['./src/renderer/**/*.{js,jsx,ts,tsx,ejs}'],
