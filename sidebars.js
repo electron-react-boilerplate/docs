@@ -10,7 +10,7 @@ module.exports = {
       "styling",
       "auto-update",
     ],
-    Testing: ["component-tests", "ci"],
+    Testing: ["component-tests", "integration-tests", "ci"],
     Advanced: ["electron-store", "internals", "tool-tips", "dev-tools", "faq"],
     Guides: ["upgrade-guide"],
     "Community Content": ["app-showcase"],
