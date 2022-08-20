@@ -76,23 +76,98 @@ npm install --save-dev tailwindcss postcss postcss-loader autoprefixer
 
 2. Add the following snippet after the `sass-loader` entry in your webpack configs:
 
-```js title="webpack.config.renderer.dev.ts, webpack.config.renderer.prod.ts"
+```js title="webpack.config.renderer.dev.ts"
 {
   // ...
   module: {
-    rules: {
-      // style, css, sass loaders...
-      loader: 'postcss-loader',
-      options: {
-        postcssOptions: {
-          plugins:
-            [
-              require('tailwindcss'),
-              require('autoprefixer'),
-            ]
-        }
-      }
-    }
+    rules: [
+      {
+        test: /\.s?css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              sourceMap: true,
+              importLoaders: 1,
+            },
+          },
+          'sass-loader',
+        ],
+        include: /\.module\.s?(c|a)ss$/,
+      },
+      {
+        test: /\.s?css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+            postcssOptions: {
+              plugins:
+                [
+                  require('tailwindcss'),
+                  require('autoprefixer'),
+                ]
+              },
+            },
+          },
+        ],
+        exclude: /\.module\.s?(c|a)ss$/,
+      },
+      // ...
+    ],
+  }
+}
+```
+
+```js title="webpack.config.renderer.prod.ts"
+{
+  // ...
+  module: {
+    rules: [
+      {
+        test: /\.s?(a|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              sourceMap: true,
+              importLoaders: 1,
+            },
+          },
+          'sass-loader',
+        ],
+        include: /\.module\.s?(c|a)ss$/,
+      },
+      {
+        test: /\.s?(a|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+            postcssOptions: {
+              plugins:
+                [
+                  require('tailwindcss'),
+                  require('autoprefixer'),
+                ]
+              },
+            },
+          },
+        ],
+        exclude: /\.module\.s?(c|a)ss$/,
+      },
+      // ...
+    ],
   }
 }
 ```
