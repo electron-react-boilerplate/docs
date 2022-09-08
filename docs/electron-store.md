@@ -56,7 +56,7 @@ ipcMain.on('electron-store-set', async (event, key, val) => {
 
 Add the following type defs:
 
-```ts title="src/renderer/App.tsx"
+```ts title="src/renderer/preload.d.ts"
 // ...
 
 declare global {
