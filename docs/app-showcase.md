@@ -6,6 +6,14 @@ sidebar_label: App Showcase
 
 Here are some awesome apps that are based on Electron React Boilerplate!
 
+## Left on Read (Open Source)
+
+[Link](https://github.com/Left-on-Read/leftonread)
+
+[**Analytics and productivity tools for your iMessages**](https://leftonread.me/)
+
+![leftonread](/img/app-showcase/left-on-read.gif)
+
 ## Command E
 
 ![command e](/img/app-showcase/cmde.png)
