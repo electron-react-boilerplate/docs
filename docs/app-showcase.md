@@ -6,14 +6,6 @@ sidebar_label: App Showcase
 
 Here are some awesome apps that are based on Electron React Boilerplate!
 
-## Left on Read (Open Source)
-
-[Link](https://github.com/Left-on-Read/leftonread)
-
-[**Analytics and productivity tools for your iMessages**](https://leftonread.me/)
-
-![leftonread](/img/app-showcase/left-on-read.gif)
-
 ## Command E
 
 ![command e](/img/app-showcase/cmde.png)
@@ -115,3 +107,11 @@ Instantly find everything you need to work faster, on your desktop and across yo
 [**A tool to build & flash ExpressLRS RC Link firmware**](https://github.com/ExpressLRS/ExpressLRS-Configurator)
 
 ![ExpressLRS Configurator](/img/app-showcase/expresslrs-configurator.jpg)
+
+## Left on Read (Open Source)
+
+[Link](https://github.com/Left-on-Read/leftonread)
+
+[**Analytics and productivity tools for your iMessages**](https://leftonread.me/)
+
+![leftonread](/img/app-showcase/left-on-read.gif)
