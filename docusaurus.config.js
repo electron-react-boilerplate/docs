@@ -87,7 +87,7 @@ module.exports = {
     },
     algolia: {
       // "Search only api key". Safe to keep this public
-      apiKey: "7989826be21123972626ebaacdc71b1a",
+      apiKey: "153d0c8921fcb9addaf1807f8899486d",
       indexName: "electron-react-boilerplate",
       appId: "6C92C9G1ZT",
       contextualSearch: true,
