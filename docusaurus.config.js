@@ -6,6 +6,7 @@ module.exports = {
   favicon: "logo/logo.png",
   organizationName: "electron-react-boilerplate",
   projectName: "site",
+  trailingSlash: false,
   themeConfig: {
     announcementBar: {
       id: "palette_banner",
