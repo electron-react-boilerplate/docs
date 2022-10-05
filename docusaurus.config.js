@@ -7,6 +7,12 @@ module.exports = {
   organizationName: "electron-react-boilerplate",
   projectName: "site",
   themeConfig: {
+    announcementBar: {
+      id: "palette_banner",
+      content:
+        '<a target="_blank" rel="noopener noreferrer" href="https://palette.dev">Try Palette - Electron Performance, made easy</a>',
+      isCloseable: false,
+    },
     colorMode: {
       defaultMode: "light",
       disableSwitch: true,
@@ -98,7 +104,6 @@ module.exports = {
       src: "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
       async: true,
     },
-    "/js/ads.js",
   ],
   presets: [
     [
