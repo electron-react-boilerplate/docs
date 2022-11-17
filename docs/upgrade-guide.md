@@ -23,7 +23,7 @@ git pull upstream main
 
 #### Tips for keeping your app modernized
 
-- Track explanations of the changes between versions in this [Upgrade Guide](https://electron-react-boilerplate.js.org/docs/upgrade-guide#ugrading-to-0170-from-0160) and in the [CHANGELOG](https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/next/CHANGELOG.md).
+- Track explanations of the changes between versions in this [Upgrade Guide](https://electron-react-boilerplate.js.org/docs/upgrade-guide#ugrading-to-0170-from-0160) and in the [CHANGELOG](https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/main/CHANGELOG.md).
 - Try merging new releases into your project, especially early on, but expect your project to evolve beyond the boilerplate and for merging upstream changes into your project to become untenable.
 - Subscribe to changes from this repo. Even if you can't merge every change into your project, watching changes from this repo will help ensure you don't miss major changes, and help you appreciate the smaller ones.
 - If something breaks in your app, try it in the boilerplate. Seeing if something works in the boilerplate can help you understand if it's a configuration issue inherited by the boilerplate or something you broke on your own. This is especially relevant for building native modules, Webpack config changes, babel config changes, additional renderer processes, etc.
