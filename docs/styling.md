@@ -34,7 +34,7 @@ CSS modules allow you to scope styles. Files must be end with `*.module.{css,sas
 ```ts
 import styles from "./Button.module.css";
 
-const Button = () => <button className={style.myButton} />;
+const Button = () => <button className={styles.myButton} />;
 ```
 
 Read more about css modules here:
