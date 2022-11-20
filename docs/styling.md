@@ -4,7 +4,7 @@ title: Styling
 sidebar_label: Styling
 ---
 
-Electron React Boilerplate supports CSS, SCSS, CSS and modules out of the box.
+Electron React Boilerplate supports CSS, SCSS, SASS and CSS modules out of the box.
 
 ## CSS
 
