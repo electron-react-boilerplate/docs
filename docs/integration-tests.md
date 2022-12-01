@@ -54,6 +54,11 @@ test.describe.serial(() => {
   });
 
   test.afterAll(async () => {
+    // On MacOS, close window first
+    if (process.platform === "darwin") {
+      const window = await electronApp.firstWindow();
+      await window.close();
+     }
     await electronApp.close();
   });
 
