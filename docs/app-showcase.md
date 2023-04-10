@@ -115,3 +115,11 @@ Instantly find everything you need to work faster, on your desktop and across yo
 [**Analytics and productivity tools for your iMessages**](https://leftonread.me/)
 
 ![leftonread](/img/app-showcase/left-on-read.gif)
+
+## PowerRenameExt (Open Source)
+
+[Link](https://github.com/DiegoBM/power-rename-ext)
+
+[**A powered-up version of Microsoft's PowerRename tool part of the PowerToys suite**](https://github.com/DiegoBM/power-rename-ext)
+
+![PowerRenameExt](https://user-images.githubusercontent.com/1613216/228227445-610beda2-dd01-47f0-b81b-6bdda638bf4c.gif)
