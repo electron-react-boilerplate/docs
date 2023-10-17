@@ -27,3 +27,4 @@ Start the app in the `dev` environment. This starts the main process with hot up
 ```bash
 npm start
 ```
+https://github.com/electron-react-boilerplate/electron-react-boilerplate
