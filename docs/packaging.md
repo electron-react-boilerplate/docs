@@ -26,3 +26,20 @@ You can debug your production build with devtools by simply setting the `DEBUG_P
 ```bash
 npx cross-env DEBUG_PROD=true npm run package
 ```
+
+## Notarizing
+
+To notarize your macOS app, you will need to set the following environment variables:
+
+- `APPLE_ID` - Your Apple ID
+- `APPLE_APP_SPECIFIC_PASSWORD` - Your Apple ID password
+
+In `package.json` -> `build` -> `mac` the `teamId` key needs to be set:
+
+```
+"notarize": {
+  "teamId": "YOUR_TEAM_ID"
+}
+```
+
+This above config will automatically get electron-builder to notarize the build.
