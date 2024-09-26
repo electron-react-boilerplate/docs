@@ -30,7 +30,7 @@ This boilerplate uses a [two package.json structure](https://www.electron.build/
 
 ### Further Readings
 
-- See [Electron Documentation - Using Native Node Modules](https://www.electronjs.org/docs/tutorial/using-native-node-modules) to see how Electron uses native Node modules.
+- See [Electron Documentation - Using Native Node Modules](https://www.electronjs.org/docs/latest/tutorial/using-native-node-modules) to see how Electron uses native Node modules.
 - See [Node.js Documentation - Addons](https://nodejs.org/api/addons.html) to see what are native Node modules.
 
 For an example app that uses this boilerplate and packages native dependencies, see [erb-sqlite-example](https://github.com/amilajack/erb-sqlite-example).
